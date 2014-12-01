@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDSTesting-TCP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"header",
+		"serializer" ],
+	"name" : "DDSTCPProtocolHeaderEncodingTest",
+	"pools" : [
+		 ],
+	"super" : "DDSTCPProtocolTest",
+	"type" : "normal" }

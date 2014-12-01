@@ -1,0 +1,1 @@
+Example running with a externally domain that points to a local server 

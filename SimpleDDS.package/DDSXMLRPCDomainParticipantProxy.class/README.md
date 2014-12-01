@@ -1,0 +1,1 @@
+A participant in ROS 1 is called node. This is the real proxy and it manages the raw xmlrpc protocol.

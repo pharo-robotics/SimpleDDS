@@ -1,0 +1,4 @@
+example
+createExampleDomain
+	
+	self subclassResponsibility 

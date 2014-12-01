@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Proxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"elements" ],
+	"name" : "DDSXmlRpcResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

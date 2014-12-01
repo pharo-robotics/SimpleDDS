@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"domain:name:parent:" : "SantiagoBragagnolo 11/12/2014 21:01",
+		"newRootAt:" : "SantiagoBragagnolo 11/12/2014 21:02" },
+	"instance" : {
+		"addParameter:" : "SantiagoBragagnolo 11/12/2014 18:36",
+		"compact" : "SantiagoBragagnolo 11/12/2014 18:33",
+		"delete" : "SantiagoBragagnolo 11/12/2014 18:33",
+		"delete:" : "SantiagoBragagnolo 11/12/2014 17:08",
+		"deleteNamespace:" : "SantiagoBragagnolo 11/12/2014 18:34",
+		"detectParameter:ifNone:" : "SantiagoBragagnolo 11/12/2014 16:56",
+		"flatParameters" : "SantiagoBragagnolo 11/12/2014 18:20",
+		"initialize" : "SantiagoBragagnolo 11/12/2014 16:55",
+		"innerNamespace:" : "SantiagoBragagnolo 11/19/2014 15:47",
+		"isRoot" : "SantiagoBragagnolo 11/12/2014 14:16",
+		"lookupOrCreateParameterInPath:" : "SantiagoBragagnolo 11/12/2014 17:10",
+		"lookupParameterInPath:" : "SantiagoBragagnolo 11/20/2014 13:34",
+		"lookupParameterInPath:ifNone:" : "SantiagoBragagnolo 11/12/2014 17:08",
+		"names" : "SantiagoBragagnolo 11/12/2014 18:41",
+		"parent" : "SantiagoBragagnolo 11/12/2014 14:16",
+		"parent:" : "SantiagoBragagnolo 11/12/2014 14:15",
+		"value" : "SantiagoBragagnolo 11/12/2014 16:58" } }

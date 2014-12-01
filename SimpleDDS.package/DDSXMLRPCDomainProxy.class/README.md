@@ -1,0 +1,1 @@
+A RoStMasterProxy is the proxy for the ROS Master, that is the node that gives access to all other nodes and to system information.

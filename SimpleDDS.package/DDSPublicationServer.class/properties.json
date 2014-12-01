@@ -1,0 +1,21 @@
+{
+	"category" : "SimpleDDS-Publishing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 10/6/2014 18:33",
+	"instvars" : [
+		"protocol",
+		"port",
+		"ip",
+		"onNewClient",
+		"process",
+		"keepRunning",
+		"listener",
+		"connectionOffer" ],
+	"name" : "DDSPublicationServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

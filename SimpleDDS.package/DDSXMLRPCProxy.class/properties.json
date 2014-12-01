@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Proxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "DDSXMLRPCProxy",
+	"pools" : [
+		 ],
+	"super" : "XMLRPCProxy",
+	"type" : "normal" }

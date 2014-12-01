@@ -1,0 +1,18 @@
+{
+	"category" : "SimpleDDS-Proxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/8/2014 19:21",
+	"instvars" : [
+		"typeLoader",
+		"registeredTopics",
+		"portResolver",
+		"proxy",
+		"participantServers" ],
+	"name" : "DDSDomainProxy",
+	"pools" : [
+		 ],
+	"super" : "MDDSAbstractDomainProxy",
+	"type" : "normal" }

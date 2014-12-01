@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/10/2014 20:07",
+	"instvars" : [
+		 ],
+	"name" : "DDSError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

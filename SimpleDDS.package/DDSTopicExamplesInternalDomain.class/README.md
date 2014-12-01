@@ -1,0 +1,1 @@
+This example works with an internal domain. Then it has not dependencies to be fitted

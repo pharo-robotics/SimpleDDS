@@ -1,0 +1,3 @@
+testing
+testLatchingFieldSizeEncoding
+	self assertEncodedEqualsExpectedInLast: 4 ofFirstElements: 85

@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfSimpleDDS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfSimpleDDS",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

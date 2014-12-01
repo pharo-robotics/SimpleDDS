@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"header" : "SantiagoBragagnolo 11/13/2014 22:55",
+		"headerDefinition" : "SantiagoBragagnolo 11/13/2014 22:55" },
+	"instance" : {
+		"acceptConnectionFrom:with:" : "SantiagoBragagnolo 10/24/2014 16:05",
+		"backlogSize" : "SantiagoBragagnolo 10/9/2014 19:40",
+		"connect:" : "SantiagoBragagnolo 10/24/2014 16:04",
+		"createSocketForlistenAt:on:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"createSocketForlistenOn:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"createSocketForlistenOn:for:" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"header" : "SantiagoBragagnolo 11/13/2014 22:53",
+		"headerProtocol" : "SantiagoBragagnolo 10/20/2014 22:01",
+		"name" : "SantiagoBragagnolo 11/13/2014 22:52",
+		"shakeHandsWith:and:accordingTo:" : "SantiagoBragagnolo 11/14/2014 10:43" } }

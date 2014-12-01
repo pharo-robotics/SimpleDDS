@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"onLocalSimpleDDS:" : "SantiagoBragagnolo 11/23/2014 23:04",
+		"onSimpleDDS:" : "SantiagoBragagnolo 11/19/2014 18:41" },
+	"instance" : {
+		"createParameterNamed:for:" : "SantiagoBragagnolo 11/19/2014 20:01",
+		"initialize" : "SantiagoBragagnolo 11/20/2014 11:29",
+		"noteParameterChanged:" : "SantiagoBragagnolo 11/20/2014 11:16",
+		"noteParameterDeleted:" : "SantiagoBragagnolo 11/19/2014 21:59",
+		"noteParameterSetted:" : "SantiagoBragagnolo 11/19/2014 23:49",
+		"parameterNamed:for:" : "SantiagoBragagnolo 11/19/2014 16:08",
+		"parameterNamed:for:ifNone:" : "SantiagoBragagnolo 11/20/2014 11:30",
+		"removeParameterBindingNamed:for:" : "SantiagoBragagnolo 11/19/2014 21:07" } }

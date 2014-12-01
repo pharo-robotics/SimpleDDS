@@ -1,0 +1,3 @@
+testing
+testHeaderLengthEncoding
+	self assertEncodedEqualsExpectedInLast: 4 ofFirstElements: 4

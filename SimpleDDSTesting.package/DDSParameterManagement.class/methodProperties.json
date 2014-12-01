@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createNewParameterNamed:" : "SantiagoBragagnolo 11/19/2014 20:01",
+		"createTestedParameterWithValue:" : "SantiagoBragagnolo 11/19/2014 20:00",
+		"getParameterNamed:" : "SantiagoBragagnolo 11/19/2014 21:11",
+		"getParameterNamed:or:" : "SantiagoBragagnolo 11/19/2014 19:27",
+		"getParameterTestedParameterOr:" : "SantiagoBragagnolo 11/19/2014 19:53",
+		"getParameterWithDifferentParticipantNamed:" : "SantiagoBragagnolo 11/23/2014 15:09",
+		"removeParameterBindingNamed:" : "SantiagoBragagnolo 11/19/2014 21:01",
+		"setUp" : "SantiagoBragagnolo 11/23/2014 15:10",
+		"tearDown" : "SantiagoBragagnolo 11/19/2014 18:49",
+		"testAccessExistantParameter" : "SantiagoBragagnolo 11/19/2014 21:03",
+		"testCreateParameterModifyDomain" : "SantiagoBragagnolo 11/19/2014 21:04",
+		"testDictionaryValue" : "SantiagoBragagnolo 11/20/2014 17:11",
+		"testForBugJustCreatedParameterHasBeenProperlyBinded" : "SantiagoBragagnolo 11/23/2014 15:11",
+		"testGetParameterGetsSameParameter" : "SantiagoBragagnolo 11/19/2014 20:36",
+		"testNonSetedParameterExecutesBlock" : "SantiagoBragagnolo 11/19/2014 19:51",
+		"testSetParameterChangesValue" : "SantiagoBragagnolo 11/19/2014 23:51" } }

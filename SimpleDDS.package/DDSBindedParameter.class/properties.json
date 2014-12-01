@@ -1,0 +1,16 @@
+{
+	"category" : "SimpleDDS-Parameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:10",
+	"instvars" : [
+		"value",
+		"setted",
+		"participant" ],
+	"name" : "DDSBindedParameter",
+	"pools" : [
+		 ],
+	"super" : "MDDSEntity",
+	"type" : "normal" }

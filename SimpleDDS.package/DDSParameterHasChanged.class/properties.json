@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Parameter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/19/2014 21:17",
+	"instvars" : [
+		 ],
+	"name" : "DDSParameterHasChanged",
+	"pools" : [
+		 ],
+	"super" : "DDSParameterAnnouncement",
+	"type" : "normal" }

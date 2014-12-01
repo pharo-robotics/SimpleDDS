@@ -1,0 +1,3 @@
+private
+createExampleDomain
+	self subclassResponsibility.

@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting-TCP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tcpProtocol" ],
+	"name" : "DDSTCPProtocolTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

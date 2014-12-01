@@ -1,0 +1,18 @@
+{
+	"category" : "SimpleDDSTesting-Parameters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tcpProtocol",
+		"domain",
+		"mirror",
+		"participant",
+		"participant2" ],
+	"name" : "DDSParameterManagement",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

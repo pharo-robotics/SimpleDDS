@@ -1,0 +1,16 @@
+{
+	"category" : "SimpleDDS-Server-Participant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/13/2014 22:48",
+	"instvars" : [
+		"participantMirror",
+		"port",
+		"discovery" ],
+	"name" : "DDSParticipantServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

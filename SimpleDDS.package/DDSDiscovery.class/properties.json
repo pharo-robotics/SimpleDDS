@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Discovery",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/22/2014 19:51",
+	"instvars" : [
+		"blackList" ],
+	"name" : "DDSDiscovery",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

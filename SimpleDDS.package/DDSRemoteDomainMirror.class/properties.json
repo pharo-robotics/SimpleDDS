@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Domain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:05",
+	"instvars" : [
+		"parameters" ],
+	"name" : "DDSRemoteDomainMirror",
+	"pools" : [
+		 ],
+	"super" : "MDDSRemoteDomainMirror",
+	"type" : "normal" }

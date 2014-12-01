@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blackList" : "SantiagoBragagnolo 11/18/2014 14:18",
+		"connect:to:for:in:" : "SantiagoBragagnolo 11/18/2014 15:29",
+		"increaseBlacklistCounterFor:" : "SantiagoBragagnolo 11/18/2014 15:31",
+		"initialize" : "SantiagoBragagnolo 9/22/2014 19:49",
+		"isBlacklistedUrl:" : "SantiagoBragagnolo 9/23/2014 22:57",
+		"manage:for:with:in:" : "SantiagoBragagnolo 11/18/2014 14:53",
+		"tries" : "SantiagoBragagnolo 9/22/2014 19:48" } }

@@ -1,0 +1,1 @@
+This class is in charge of managing the all what goes to discovering of the network in a ROS 1.0 environment

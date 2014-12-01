@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"onLocalSimpleDDS:" : "SantiagoBragagnolo 11/27/2014 12:11",
+		"onSimpleDDS:" : "SantiagoBragagnolo 11/19/2014 18:42" },
+	"instance" : {
+		"createParameterNamed:for:" : "SantiagoBragagnolo 11/19/2014 23:33",
+		"initialize" : "SantiagoBragagnolo 11/19/2014 20:27",
+		"noteParameterDeleted:" : "SantiagoBragagnolo 11/19/2014 22:41",
+		"noteParameterSetted:" : "SantiagoBragagnolo 11/19/2014 23:46",
+		"parameterNamed:for:ifNone:" : "SantiagoBragagnolo 12/1/2014 15:49",
+		"removeParameterBindingNamed:for:" : "SantiagoBragagnolo 11/19/2014 21:09" } }

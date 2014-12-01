@@ -1,0 +1,4 @@
+accessing
+noteIsNotRegisteredAnymore
+	super noteIsNotRegisteredAnymore.
+	self stopPublishing.

@@ -1,0 +1,1 @@
+A PhaROSParticipantServer class defines an api for giving to any interested all what is available about the local participant. It relies on subclasses for technologies
