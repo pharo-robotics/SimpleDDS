@@ -12,8 +12,9 @@
 		"validate" : "SantiagoBragagnolo 11/14/2014 22:21" },
 	"instance" : {
 		"baseline01:" : "SantiagoBragagnolo 12/1/2014 17:02",
+		"baseline02:" : "SantiagoBragagnolo 12/2/2014 15:00",
 		"customProjectAttributes" : "SantiagoBragagnolo 11/14/2014 22:21",
-		"development:" : "SantiagoBragagnolo 12/1/2014 17:02",
+		"development:" : "SantiagoBragagnolo 12/2/2014 15:00",
 		"project" : "SantiagoBragagnolo 11/14/2014 22:21",
 		"stable:" : "SantiagoBragagnolo 12/1/2014 17:02",
-		"version10:" : "SantiagoBragagnolo 12/1/2014 21:25" } }
+		"version10:" : "SantiagoBragagnolo 12/2/2014 15:02" } }

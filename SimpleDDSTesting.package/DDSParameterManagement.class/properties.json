@@ -10,7 +10,8 @@
 		"domain",
 		"mirror",
 		"participant",
-		"participant2" ],
+		"participant2",
+		"server" ],
 	"name" : "DDSParameterManagement",
 	"pools" : [
 		 ],

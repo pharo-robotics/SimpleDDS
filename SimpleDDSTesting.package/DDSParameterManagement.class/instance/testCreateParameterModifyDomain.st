@@ -1,6 +1,7 @@
 as yet unclassified
 testCreateParameterModifyDomain
 	| createdParameter gettedParameter |
+
 	createdParameter := self createNewParameterNamed: '/parameter'.
 	createdParameter set: 'Value'.
 	self removeParameterBindingNamed: createdParameter name.
