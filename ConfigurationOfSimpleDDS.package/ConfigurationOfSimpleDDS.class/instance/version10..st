@@ -12,4 +12,4 @@ version10: spec
 			project: 'MetaDDS' with: '1.0'.
 		spec 
 			package: #SimpleDDS with: 'SimpleDDS-SantiagoBragagnolo.13';
-			package: #SimpleDDSTesting with: 'SimpleDDSTesting-SantiagoBragagnolo.5'. ].
+			package: #SimpleDDSTesting with: 'SimpleDDSTesting-SantiagoBragagnolo.7'. ].
