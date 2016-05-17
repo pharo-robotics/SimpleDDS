@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSWithServerExtention",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/28/2014 11:11",
+	"instvars" : [
+		"server" ],
+	"name" : "DDSTopicExamplesExternalDomainWithLocalServer",
+	"pools" : [
+		 ],
+	"super" : "DDSTopicExamples",
+	"type" : "normal" }

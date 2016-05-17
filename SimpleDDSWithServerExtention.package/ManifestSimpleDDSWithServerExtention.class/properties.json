@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSWithServerExtention",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestSimpleDDSWithServerExtention",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
