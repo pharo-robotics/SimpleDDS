@@ -1,3 +1,3 @@
 converting
 asString
-	^ 'ROS-Proxy', proxy asString
+	^ 'DDS-Proxy', proxy asString

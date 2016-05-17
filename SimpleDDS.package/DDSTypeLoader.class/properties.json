@@ -7,7 +7,6 @@
 	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:07",
 	"instvars" : [
 		"registry",
-		"name",
 		"proxy" ],
 	"name" : "DDSTypeLoader",
 	"pools" : [

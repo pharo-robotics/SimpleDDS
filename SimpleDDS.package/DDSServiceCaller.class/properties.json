@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/8/2015 13:41",
+	"instvars" : [
+		"participant",
+		"service" ],
+	"name" : "DDSServiceCaller",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:05",
 	"instvars" : [
-		 ],
+		"participants",
+		"monitor",
+		"createdServices" ],
 	"name" : "DDSExternallyDefinedDomain",
 	"pools" : [
 		 ],

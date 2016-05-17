@@ -1,0 +1,5 @@
+accessing
+beRegisteredBy: aTypeLoader
+	self response privateRegisterFieldsAndConstantsInto: aTypeLoader.
+	self request privateRegisterFieldsAndConstantsInto: aTypeLoader.
+	aTypeLoader privateRegisterTypeDefinition: self

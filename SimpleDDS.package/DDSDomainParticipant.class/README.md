@@ -1,0 +1,1 @@
+The DDSDomainParticipant adds a server collection. One per available protocol. 

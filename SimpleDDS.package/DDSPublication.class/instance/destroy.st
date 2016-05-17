@@ -1,4 +1,6 @@
 accessing
 destroy
+	| rt |
+	rt := self stopPublishing.
 	super destroy.
-	^ self stopPublishing.
+	^ rt

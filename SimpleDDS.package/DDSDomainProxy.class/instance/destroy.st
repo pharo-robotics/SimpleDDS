@@ -1,4 +1,4 @@
-as yet unclassified
+abstract
 destroy
 	super destroy.
 	registeredTopics removeAll.

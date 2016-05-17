@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDS-Publishing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/8/2015 13:51",
+	"instvars" : [
+		"servers",
+		"offers" ],
+	"name" : "DDSDomainParticipant",
+	"pools" : [
+		 ],
+	"super" : "MDDSDomainParticipant",
+	"type" : "normal" }

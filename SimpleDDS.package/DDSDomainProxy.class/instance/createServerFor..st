@@ -1,3 +1,3 @@
-as yet unclassified
+creating
 createServerFor: aParticipantMirror
 	^ DDSParticipantXMLRPCServer participantMirror: aParticipantMirror.

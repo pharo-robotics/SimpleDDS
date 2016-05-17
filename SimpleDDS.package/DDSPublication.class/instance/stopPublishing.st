@@ -1,5 +1,3 @@
-accessing
+run
 stopPublishing
-
-	servers do: #stop.
-	servers removeAll.
+	connectionOffer ifNotNil: [ participant unregisterConnectionOffer: connectionOffer ]

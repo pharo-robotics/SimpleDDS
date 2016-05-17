@@ -1,5 +1,5 @@
 {
-	"category" : "SimpleDDS-Server-Participant",
+	"category" : "SimpleDDS-ParticipantServer",
 	"classinstvars" : [
 		 ],
 	"classvars" : [

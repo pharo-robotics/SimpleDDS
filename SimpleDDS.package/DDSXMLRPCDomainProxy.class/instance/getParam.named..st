@@ -1,4 +1,4 @@
-API-Data-Accessors
+API-Parameter-Server
 getParam: aCallerId named: aParameterName
 	^ self
 		invokeMethod: 'getParam'

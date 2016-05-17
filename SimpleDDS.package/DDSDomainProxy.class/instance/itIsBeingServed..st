@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 itIsBeingServed: aParticipantMirror
-	^ participantServers includes: [ :e | e itServes: aParticipantMirror ]
+	^ participantServers contains: [ :e | e itServes: aParticipantMirror ]

@@ -1,12 +1,12 @@
 SystemOrganization addCategory: #SimpleDDS!
 SystemOrganization addCategory: 'SimpleDDS-Discovery'!
 SystemOrganization addCategory: 'SimpleDDS-Domain'!
+SystemOrganization addCategory: 'SimpleDDS-Error'!
 SystemOrganization addCategory: 'SimpleDDS-Examples'!
 SystemOrganization addCategory: 'SimpleDDS-Parameter'!
+SystemOrganization addCategory: 'SimpleDDS-ParticipantServer'!
 SystemOrganization addCategory: 'SimpleDDS-Protocols'!
 SystemOrganization addCategory: 'SimpleDDS-Proxy'!
 SystemOrganization addCategory: 'SimpleDDS-Publishing'!
-SystemOrganization addCategory: 'SimpleDDS-Server-Domain'!
-SystemOrganization addCategory: 'SimpleDDS-Server-Domain-Parameters'!
-SystemOrganization addCategory: 'SimpleDDS-Server-Participant'!
+SystemOrganization addCategory: 'SimpleDDS-Services'!
 SystemOrganization addCategory: 'SimpleDDS-Util'!

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"ruleAbstractClassRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleBadMessageRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 14:18",
+		"ruleCascadedNextPutAllsRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 14:18",
+		"ruleClassNotReferencedRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 13:56",
+		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 10:18",
+		"ruleCodeCruftLeftInMethodsRuleV1TODO" : "SantiagoBragagnolo 9/9/2015 13:56",
+		"ruleImplementedNotSentRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 14:18",
+		"ruleMissingSubclassResponsibilityRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 13:56",
+		"ruleOnlyReadOrWrittenTemporaryRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleSentNotImplementedRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleSentNotImplementedRuleV1TODO" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleTempsReadBeforeWrittenRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:41" },
+	"instance" : {
+		 } }

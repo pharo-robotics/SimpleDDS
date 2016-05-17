@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"domain:name:type:" : "SantiagoBragagnolo 8/10/2015 15:29" },
+	"instance" : {
+		"callerFor:" : "SantiagoBragagnolo 8/11/2015 10:41",
+		"destroy" : "SantiagoBragagnolo 9/15/2015 10:08",
+		"hasLocalServers" : "SantiagoBragagnolo 3/14/2016 16:50",
+		"hasServers" : "SantiagoBragagnolo 9/9/2015 14:18",
+		"initialize" : "SantiagoBragagnolo 8/11/2015 11:26",
+		"registerServer:" : "SantiagoBragagnolo 9/9/2015 13:45",
+		"scanForServersFor:ifNone:" : "SantiagoBragagnolo 8/26/2015 16:01",
+		"serve:for:" : "SantiagoBragagnolo 8/11/2015 11:26",
+		"server" : "SantiagoBragagnolo 9/7/2015 14:07",
+		"servers" : "SantiagoBragagnolo 8/11/2015 11:49",
+		"type" : "SantiagoBragagnolo 8/10/2015 15:31",
+		"type:" : "SantiagoBragagnolo 8/10/2015 15:28" } }

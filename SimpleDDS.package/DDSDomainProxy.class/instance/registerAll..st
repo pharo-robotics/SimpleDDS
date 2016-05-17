@@ -1,3 +1,3 @@
-as yet unclassified
+private
 registerAll: aSetOfTopics
 	registeredTopics addAll: aSetOfTopics

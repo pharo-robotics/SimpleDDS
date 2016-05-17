@@ -1,0 +1,3 @@
+as yet unclassified
+lookupAndRegisterServiceServerFor: aDDSDomainParticipant forCalling: aDDSService
+	^ mirror lookupAndRegisterServiceServerFor: aDDSDomainParticipant forCalling: aDDSService

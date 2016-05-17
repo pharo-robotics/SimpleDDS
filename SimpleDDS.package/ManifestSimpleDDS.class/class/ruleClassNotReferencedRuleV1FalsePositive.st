@@ -1,0 +1,3 @@
+code-critics
+ruleClassNotReferencedRuleV1FalsePositive
+	^ #(#(#(#RGClassDefinition #(#DDSTypeExamples)) #'2015-09-09T13:56:32.123851+02:00') #(#(#RGClassDefinition #(#DDSParameterExamplesStrictExternalDomain)) #'2015-09-09T13:56:32.12328+02:00') #(#(#RGClassDefinition #(#DDSParameterExamplesExternalDomainWithLocalServer)) #'2015-09-09T13:56:32.122806+02:00') #(#(#RGClassDefinition #(#DDSTopicExamplesStrictExternalDomain)) #'2015-09-09T13:56:32.123112+02:00') #(#(#RGClassDefinition #(#DDSSettingUpDomainExamples)) #'2015-09-09T13:56:32.124348+02:00') #(#(#RGClassDefinition #(#DDSTopicExamplesInternalDomain)) #'2015-09-09T13:56:32.123433+02:00') )

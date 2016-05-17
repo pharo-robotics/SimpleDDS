@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 8/10/2015 16:27",
+	"instvars" : [
+		"type" ],
+	"name" : "DDSServiceDescriptor",
+	"pools" : [
+		 ],
+	"super" : "MDDSEntity",
+	"type" : "normal" }

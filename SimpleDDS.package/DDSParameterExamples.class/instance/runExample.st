@@ -9,10 +9,10 @@ runExample
 	Transcript open.
 	self setUp.
 	self halt.
-	participant1Process := [ self exampleParameter ] shootIt.
+	participant1Process := [ self exampleParameter ] run.
 	1 second wait.
-	participant2Process := [ self exampleParameter ] shootIt.
+	participant2Process := [ self exampleParameter ] run.
 	join := [ 
 	participant1Process wait.
 	participant2Process wait.
-	self tearDown ] shootIt
+	self tearDown ] run

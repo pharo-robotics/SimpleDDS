@@ -1,4 +1,4 @@
-as yet unclassified
+manage list
 manage: anURLSet for: aSubscriber with: aParticipantMirror in: aDomain
 	anURLSet
 		reject: [ :url | 

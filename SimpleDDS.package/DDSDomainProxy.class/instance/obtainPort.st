@@ -1,3 +1,3 @@
-as yet unclassified
+query
 obtainPort
 	^ portResolver obtainPort.

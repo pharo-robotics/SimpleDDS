@@ -1,1 +1,0 @@
-XMLRPC server for the super class API definition.

@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 reflectParticipant: aMDDSParticipant
 	| mirror |
-	mirror := MDDSDomainParticipantMirror domain: self name: aMDDSParticipant name participant: aMDDSParticipant.
+	mirror := aMDDSParticipant asMirror.
 	self serveParticipant: mirror.
 	^ mirror

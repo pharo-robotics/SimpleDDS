@@ -1,6 +1,7 @@
-accessing
+setup
 tearDown
 	super tearDown.
+	server domain destroy.
 	server stop.
 	server domain: nil.
 	

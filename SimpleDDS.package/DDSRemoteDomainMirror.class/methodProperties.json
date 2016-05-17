@@ -1,11 +1,25 @@
 {
 	"class" : {
-		"onLocalSimpleDDS:" : "SantiagoBragagnolo 11/27/2014 12:11",
 		"onSimpleDDS:" : "SantiagoBragagnolo 11/19/2014 18:42" },
 	"instance" : {
 		"createParameterNamed:for:" : "SantiagoBragagnolo 11/19/2014 23:33",
+		"createServiceCallerFor:forCalling:" : "SantiagoBragagnolo 8/26/2015 15:52",
+		"findOrRegisterServiceDescriptorByName:type:" : "SantiagoBragagnolo 8/11/2015 17:26",
+		"findParticipantByName:" : "SantiagoBragagnolo 2/11/2015 14:00",
+		"forceReRegistrationOfPublication:for:" : "SantiagoBragagnolo 6/26/2015 16:00",
+		"forceReRegistrationOfService:for:" : "SantiagoBragagnolo 9/15/2015 11:20",
+		"forceReRegistrationOfSubscription:for:" : "SantiagoBragagnolo 6/26/2015 15:59",
+		"forceReconnect:of:to:" : "SantiagoBragagnolo 6/26/2015 15:14",
 		"initialize" : "SantiagoBragagnolo 11/19/2014 20:27",
+		"lookupAndRegisterServiceServerFor:forCalling:" : "SantiagoBragagnolo 8/27/2015 14:28",
 		"noteParameterDeleted:" : "SantiagoBragagnolo 11/19/2014 22:41",
 		"noteParameterSetted:" : "SantiagoBragagnolo 11/19/2014 23:46",
 		"parameterNamed:for:ifNone:" : "SantiagoBragagnolo 12/1/2014 15:49",
-		"removeParameterBindingNamed:for:" : "SantiagoBragagnolo 11/19/2014 21:09" } }
+		"participantServerFor:" : "SantiagoBragagnolo 8/31/2015 12:05",
+		"registerServiceFor:named:at:for:" : "SantiagoBragagnolo 8/12/2015 17:58",
+		"remoteUriFor:" : "SantiagoBragagnolo 2/26/2016 14:19",
+		"removeParameterBindingNamed:for:" : "SantiagoBragagnolo 11/19/2014 21:09",
+		"serviceTypeDefinition:ifAbsent:" : "SantiagoBragagnolo 8/26/2015 11:44",
+		"systemState" : "SantiagoBragagnolo 6/29/2015 12:13",
+		"uriFor:" : "SantiagoBragagnolo 8/31/2015 13:13",
+		"url" : "SantiagoBragagnolo 3/5/2015 15:32" } }

@@ -1,0 +1,1 @@
+A service type definition is a definition that allows to define the layout of a packet for response and an other for request

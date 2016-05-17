@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Domain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 8/10/2015 16:26",
+	"instvars" : [
+		"createdServices" ],
+	"name" : "DDSInternallyDefinedDomain",
+	"pools" : [
+		 ],
+	"super" : "MDDSInternallyDefinedDomain",
+	"type" : "normal" }

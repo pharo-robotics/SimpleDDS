@@ -1,0 +1,1 @@
+A service is a reification of a callable service. It may be exposed for remote usage or called for demanding a service to a remote participant.

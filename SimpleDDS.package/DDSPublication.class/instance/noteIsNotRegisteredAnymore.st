@@ -1,4 +1,5 @@
-accessing
+notifications
 noteIsNotRegisteredAnymore
-	super noteIsNotRegisteredAnymore.
 	self stopPublishing.
+	super noteIsNotRegisteredAnymore.
+	

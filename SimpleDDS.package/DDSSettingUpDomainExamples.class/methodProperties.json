@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"exampleCreateAndServeDomainDescriptor" : "SantiagoBragagnolo 11/28/2014 16:07",
-		"exampleCreateAndServeDomainDescriptorAndCreateLocalDomain" : "SantiagoBragagnolo 11/28/2014 16:09",
 		"exampleCreateExternallyDefinedDomainDDSFlavor" : "SantiagoBragagnolo 11/28/2014 16:10",
 		"exampleCreateExternallyDefinedDomainMDDSFlavor" : "SantiagoBragagnolo 11/28/2014 16:11",
 		"exampleCreateInternallyDefinedDomain" : "SantiagoBragagnolo 11/28/2014 16:11" } }

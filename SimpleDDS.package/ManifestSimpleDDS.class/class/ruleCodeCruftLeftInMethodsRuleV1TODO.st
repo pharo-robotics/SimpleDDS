@@ -1,0 +1,3 @@
+code-critics
+ruleCodeCruftLeftInMethodsRuleV1TODO
+	^ #(#(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #start #false)) #'2015-09-09T11:02:56.484572+02:00') #(#(#RGMethodDefinition #(#DDSTCPProtocol #acceptConnectionFrom:with: #false)) #'2015-09-09T11:02:56.484403+02:00') #(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #start #false)) #'2015-09-09T12:34:29.859129+02:00') #(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #start #false)) #'2015-09-09T12:41:39.966879+02:00') #(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #start #false)) #'2015-09-09T13:56:32.134669+02:00') )

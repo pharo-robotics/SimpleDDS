@@ -1,0 +1,3 @@
+testing
+isTCP
+	^ protocol isTCP

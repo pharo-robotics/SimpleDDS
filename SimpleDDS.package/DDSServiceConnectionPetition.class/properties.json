@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDS-Protocols",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/8/2015 13:53",
+	"instvars" : [
+		"url" ],
+	"name" : "DDSServiceConnectionPetition",
+	"pools" : [
+		 ],
+	"super" : "DDSServiceConnectionDescription",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 createPublicationFor: aMDDSDomainParticipant with: aType
 	^ DDSPublication publishing: aMDDSDomainParticipant with: aType marshaller

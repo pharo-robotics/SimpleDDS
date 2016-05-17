@@ -10,7 +10,8 @@
 		"registeredTopics",
 		"portResolver",
 		"proxy",
-		"participantServers" ],
+		"participantServers",
+		"registeredServices" ],
 	"name" : "DDSDomainProxy",
 	"pools" : [
 		 ],

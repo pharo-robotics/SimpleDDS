@@ -1,0 +1,3 @@
+code-critics
+ruleBadMessageRuleV1FalsePositive
+	^ #(#(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #handleError: #false)) #'2015-09-09T14:18:15.509733+02:00') #(#(#RGMethodDefinition #(#MDDSCollectionType #stonOn: #false)) #'2015-09-09T14:18:15.509598+02:00') #(#(#RGMethodDefinition #(#DDSParameterExamples #runExample #false)) #'2015-09-09T14:18:15.509684+02:00') #(#(#RGMethodDefinition #(#DDSTopicExamples #runExample #false)) #'2015-09-09T14:18:15.50975+02:00') #(#(#RGMethodDefinition #(#DDSParticipantProtocolServer #start #false)) #'2015-09-09T14:18:15.509717+02:00') )

@@ -1,0 +1,1 @@
+A service type descritpor is a meta level that has name and is fetchable

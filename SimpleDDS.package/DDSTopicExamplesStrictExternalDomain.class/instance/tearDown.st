@@ -1,0 +1,3 @@
+private
+tearDown
+	DDSExternallyDefinedDomain allInstancesDo: #destroy

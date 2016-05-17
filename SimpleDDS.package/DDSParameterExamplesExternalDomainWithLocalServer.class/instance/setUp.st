@@ -1,5 +1,5 @@
-accessing
+setup
 setUp
-	server := DDSDomainDescriptorServer xmlrpcServerOn: DDSDomainDescriptor new.
-	server domain: DDSDomainDescriptor new.
+	server := DDSDomainDescriptorXMLRPCServer serve: DDSSDomainDescriptor new.
+	server domain: DDSSDomainDescriptor new.
 	server serveAt: 11311

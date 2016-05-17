@@ -4,6 +4,11 @@ connect: aMDDSConnectionPetition
 	socket := Socket newTCP.
 	stream := SocketStream on: socket.
 	stream binary.
-	socket connectTo: (NetNameResolver addressFromString: aMDDSConnectionPetition ip) port: aMDDSConnectionPetition port.
-	self shakeHandsWith: socket and: stream accordingTo: aMDDSConnectionPetition.
-	^ MDDSReadingNetworkConnection protocol: self socket: socket stream: stream
+	socket
+		connectTo:
+			(NetNameResolver addressFromString: aMDDSConnectionPetition ip)
+		port: aMDDSConnectionPetition port.
+	^ self
+		shakeHandsWith: socket
+		and: stream
+		accordingTo: aMDDSConnectionPetition

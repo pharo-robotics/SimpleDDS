@@ -10,5 +10,5 @@ getBusInfo: aCallerID
 				ifTrue: #i
 				ifFalse: #o).
 			(conn protocol name).
-			(conn topic name).
+			"(conn topic name)."
 			(conn isConnected)} ]) asArray)}

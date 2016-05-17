@@ -1,3 +1,3 @@
-*SimpleDDS
+constructor
 onSimpleDDS: anUrl
 	^ self on: (DDSRemoteDomainMirror onSimpleDDS: anUrl)

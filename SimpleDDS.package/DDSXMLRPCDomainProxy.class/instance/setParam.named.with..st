@@ -1,4 +1,4 @@
-API-Data-Mutators
+API-Parameter-Server
 setParam: aCallerId named: aParameterName with: anObject
 	^ self
 		invokeMethod: 'setParam'

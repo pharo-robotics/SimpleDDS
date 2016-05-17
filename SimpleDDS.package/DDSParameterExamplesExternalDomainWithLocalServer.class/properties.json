@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/28/2014 12:11",
 	"instvars" : [
-		"server",
-		"toStop" ],
+		"server" ],
 	"name" : "DDSParameterExamplesExternalDomainWithLocalServer",
 	"pools" : [
 		 ],

@@ -1,0 +1,19 @@
+{
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/14/2015 12:06",
+	"instvars" : [
+		"stream",
+		"socket",
+		"participantName",
+		"outputMarshaller",
+		"inputMarshaller",
+		"isAServerSideConnection" ],
+	"name" : "DDSReadWriteNetworkConnection",
+	"pools" : [
+		 ],
+	"super" : "MDDSConnection",
+	"type" : "normal" }

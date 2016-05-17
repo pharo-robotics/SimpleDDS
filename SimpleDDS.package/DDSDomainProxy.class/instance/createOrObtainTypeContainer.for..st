@@ -1,10 +1,10 @@
 parameters
 createOrObtainTypeContainer: aRegistryName for: aTypeLoader
 	| value |
-	[ value := proxy getParam: aRegistryName for: aTypeLoader name ]
+	[ value := proxy getParam: aTypeLoader name named: aRegistryName ]
 		on: Error
 		do: [ 
 			value := Dictionary new.
 			proxy setParam: aTypeLoader name named: aRegistryName with: value ].
-	proxy subscribeParam: aRegistryName callingBack: aTypeLoader uri for: aTypeLoader name.
+	proxy subscribeParam: aTypeLoader name callingBack: aTypeLoader uri forParameter: aRegistryName.
 	^ value

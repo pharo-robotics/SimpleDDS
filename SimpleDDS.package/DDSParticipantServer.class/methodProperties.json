@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"new" : "SantiagoBragagnolo 12/1/2014 13:40",
-		"participantMirror:" : "SantiagoBragagnolo 11/13/2014 22:17" },
+		"participantMirror:" : "SantiagoBragagnolo 8/14/2015 15:59" },
 	"instance" : {
 		"destroy" : "SantiagoBragagnolo 11/30/2014 17:38",
 		"discovery:" : "SantiagoBragagnolo 10/18/2014 16:44",
-		"from:update:with:" : "SantiagoBragagnolo 11/20/2014 11:20",
-		"getBusInfo:" : "SantiagoBragagnolo 10/20/2014 21:56",
+		"from:update:with:" : "SantiagoBragagnolo 9/9/2015 12:03",
+		"getBusInfo:" : "SantiagoBragagnolo 3/9/2015 11:26",
 		"getPid:" : "SantiagoBragagnolo 11/16/2014 16:47",
 		"getPublications:" : "SantiagoBragagnolo 10/20/2014 21:57",
 		"getSubscriptions:" : "SantiagoBragagnolo 10/20/2014 21:57",
@@ -15,7 +15,7 @@
 		"participantMirror:" : "SantiagoBragagnolo 9/12/2014 20:39",
 		"port" : "SantiagoBragagnolo 9/12/2014 21:25",
 		"port:" : "SantiagoBragagnolo 9/12/2014 20:43",
-		"register:for:" : "SantiagoBragagnolo 10/18/2014 17:41",
-		"requestTopic:for:availableFor:" : "SantiagoBragagnolo 11/17/2014 11:41",
+		"register:for:" : "SantiagoBragagnolo 7/2/2015 16:35",
+		"requestTopic:for:availableFor:" : "SantiagoBragagnolo 6/29/2015 15:32",
 		"serve" : "SantiagoBragagnolo 11/13/2014 22:41",
 		"unserve" : "SantiagoBragagnolo 11/30/2014 17:28" } }

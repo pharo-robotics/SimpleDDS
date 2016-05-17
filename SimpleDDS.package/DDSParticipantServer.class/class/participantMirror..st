@@ -1,3 +1,6 @@
 as yet unclassified
 participantMirror: aParticipantMirror
-	^ self new participantMirror: aParticipantMirror ; discovery: DDSDiscovery new ; yourself.
+	^ self new
+		participantMirror: aParticipantMirror;
+		discovery: DDSDiscovery new;
+		yourself

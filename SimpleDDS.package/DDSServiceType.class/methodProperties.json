@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"domain:name:responseMarshaller:requestMarshaller:md5sum:" : "SantiagoBragagnolo 8/10/2015 16:18" },
+	"instance" : {
+		"isTypePlaceHolder" : "SantiagoBragagnolo 8/10/2015 16:22",
+		"md5sum" : "SantiagoBragagnolo 8/27/2015 14:41",
+		"md5sum:" : "SantiagoBragagnolo 8/10/2015 16:21",
+		"plainDefinition" : "SantiagoBragagnolo 8/27/2015 14:43",
+		"requestMarshaller" : "SantiagoBragagnolo 8/10/2015 16:24",
+		"requestMarshaller:" : "SantiagoBragagnolo 8/10/2015 16:21",
+		"responseMarshaller" : "SantiagoBragagnolo 8/10/2015 16:24",
+		"responseMarshaller:" : "SantiagoBragagnolo 8/10/2015 16:20" } }

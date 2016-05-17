@@ -1,0 +1,1 @@
+A service descriptor is a meta level of service. Is used for describing the system

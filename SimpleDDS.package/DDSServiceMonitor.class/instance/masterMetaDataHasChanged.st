@@ -1,0 +1,3 @@
+notifications
+masterMetaDataHasChanged
+	^ masterMetaDataHasChanged

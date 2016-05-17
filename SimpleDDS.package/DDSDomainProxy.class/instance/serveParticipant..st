@@ -1,4 +1,4 @@
-as yet unclassified
+query
 serveParticipant: aParticipantMirror
 	(self itIsBeingServed: aParticipantMirror)
 		ifFalse: [ 

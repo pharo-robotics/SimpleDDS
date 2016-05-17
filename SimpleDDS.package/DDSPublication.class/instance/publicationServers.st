@@ -1,3 +1,3 @@
 accessing
 publicationServers
-	^ servers
+	^ participant servers

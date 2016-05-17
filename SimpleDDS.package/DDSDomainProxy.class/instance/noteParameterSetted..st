@@ -1,4 +1,4 @@
-as yet unclassified
+parameters
 noteParameterSetted: aParameterAnnouncement
 	| param |
 	param := aParameterAnnouncement parameter.

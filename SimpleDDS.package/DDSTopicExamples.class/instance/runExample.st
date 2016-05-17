@@ -13,12 +13,12 @@ runExample
 	subscriberProcess := [ 
 	[ self subscribingExample ]
 		on: Error
-		do: [ :err | self halt ] ] shootIt.
+		do: [ :err | self halt ] ] run.
 	publisherProcess := [ 
 	[ self publishingExample ]
 		on: Error
-		do: [ :err | self halt ] ] shootIt.
+		do: [ :err | self halt ] ] run.
 	[ 
 	subscriberProcess wait.
 	publisherProcess wait.
-	self tearDown ] shootIt
+	self tearDown ] run
