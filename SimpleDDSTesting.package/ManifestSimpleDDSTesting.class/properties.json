@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestSimpleDDSTesting",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

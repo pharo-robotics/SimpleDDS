@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 9/8/2015 11:10",
+	"instvars" : [
+		 ],
+	"name" : "DDSTestTypeLoader",
+	"pools" : [
+		 ],
+	"super" : "DDSTypeLoader",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"participant" : "SantiagoBragagnolo 9/8/2015 12:08",
+		"setUp" : "SantiagoBragagnolo 8/13/2015 11:46",
+		"testExposedServerTCPWorksAtSameIPThanParticipant" : "SantiagoBragagnolo 3/14/2016 11:03",
+		"testExposedServerXMLRPCWorksAtSameIPThanParticipant" : "SantiagoBragagnolo 3/14/2016 11:03",
+		"testServerDoneByExternalDomainCreatesAnExposedServer" : "SantiagoBragagnolo 8/13/2015 11:46",
+		"testServerIsRunningJustAfterCreation" : "SantiagoBragagnolo 3/14/2016 11:24" } }

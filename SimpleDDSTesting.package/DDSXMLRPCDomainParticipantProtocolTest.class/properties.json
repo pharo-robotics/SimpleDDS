@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting-Proxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"proxy" ],
+	"name" : "DDSXMLRPCDomainParticipantProtocolTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

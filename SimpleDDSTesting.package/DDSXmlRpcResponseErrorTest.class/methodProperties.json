@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"elementsToTest" : "SantiagoBragagnolo 6/30/2015 15:58",
+		"messageValue" : "SantiagoBragagnolo 6/30/2015 15:58",
+		"testErrorContainMessage" : "SantiagoBragagnolo 6/30/2015 15:56",
+		"testResponseIsError" : "SantiagoBragagnolo 6/30/2015 15:58",
+		"testResponseIsNotFailure" : "SantiagoBragagnolo 6/30/2015 15:57",
+		"testResponseIsNotSuccess" : "SantiagoBragagnolo 6/30/2015 15:56",
+		"testValueCrashes" : "SantiagoBragagnolo 6/30/2015 15:56" } }

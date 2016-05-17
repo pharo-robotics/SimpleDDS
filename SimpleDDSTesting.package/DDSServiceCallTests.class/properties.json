@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDSTesting-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"caller",
+		"participant" ],
+	"name" : "DDSServiceCallTests",
+	"pools" : [
+		 ],
+	"super" : "DDSInternallyDefinedDomainServiceRelatedTests",
+	"type" : "normal" }

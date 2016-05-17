@@ -1,0 +1,17 @@
+{
+	"category" : "SimpleDDSTesting-Services",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"domain",
+		"service",
+		"server",
+		"serverDescriptor" ],
+	"name" : "DDSExternallyDefinedDomainServiceRelatedTests",
+	"pools" : [
+		 ],
+	"super" : "MDDSPharoBasedTests",
+	"type" : "normal" }

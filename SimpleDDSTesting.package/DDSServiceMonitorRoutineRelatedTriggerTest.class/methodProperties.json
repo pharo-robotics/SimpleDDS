@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildDomainForTest" : "SantiagoBragagnolo 7/2/2015 11:14",
+		"callBlockExecutor:" : "SantiagoBragagnolo 7/3/2015 11:10",
+		"testBlockApplierTriggersTheRoutinePassage" : "SantiagoBragagnolo 7/3/2015 11:10",
+		"testRoutineCallArrives" : "SantiagoBragagnolo 7/3/2015 10:58",
+		"testRoutineCallThreadsholdShiftsUpArrives" : "SantiagoBragagnolo 7/3/2015 11:14" } }

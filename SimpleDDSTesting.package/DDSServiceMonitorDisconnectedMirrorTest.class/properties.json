@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting-ServiceMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DDSServiceMonitorDisconnectedMirrorTest",
+	"pools" : [
+		 ],
+	"super" : "DDSServiceMonitorTest",
+	"type" : "normal" }

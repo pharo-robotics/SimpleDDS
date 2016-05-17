@@ -1,0 +1,4 @@
+as yet unclassified
+testNilSystemStateDoesNotReconnectBackend
+	monitor analyzeCurrentState.
+	self deny: monitor masterHasBeenReconnected

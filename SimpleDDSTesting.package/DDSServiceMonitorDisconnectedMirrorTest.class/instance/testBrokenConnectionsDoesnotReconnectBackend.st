@@ -1,0 +1,4 @@
+as yet unclassified
+testBrokenConnectionsDoesnotReconnectBackend
+	monitor analyzeCurrentState.
+	self deny: monitor masterHasBeenReconnected

@@ -1,0 +1,14 @@
+{
+	"category" : "SimpleDDSTesting-ServiceMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DDSServiceMonitorSameSystemStateTest",
+	"pools" : [
+		 ],
+	"super" : "DDSServiceMonitorTest",
+	"type" : "normal" }

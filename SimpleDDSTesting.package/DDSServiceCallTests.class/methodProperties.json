@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"participant" : "SantiagoBragagnolo 8/13/2015 12:23",
+		"setUp" : "SantiagoBragagnolo 9/8/2015 12:28",
+		"testServiceCallerExplodesAtCallingANonYetServedService" : "SantiagoBragagnolo 8/11/2015 10:37",
+		"testServiceCallerSpawnProperObject" : "SantiagoBragagnolo 8/11/2015 10:37",
+		"testTheServiceBlockIsAppliedAsExpected" : "SantiagoBragagnolo 8/11/2015 11:04",
+		"testTheTypeInjectedIntoTheBlockIsTheExpectedOne" : "SantiagoBragagnolo 8/11/2015 11:58",
+		"testTheTypeOfTheResponseIsTheExpected" : "SantiagoBragagnolo 8/11/2015 11:58" } }

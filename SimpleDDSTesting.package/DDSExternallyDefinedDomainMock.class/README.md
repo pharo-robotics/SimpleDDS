@@ -1,0 +1,1 @@
+This external domain acts as an object mock that returns that what is expected/ configured by each test's setup
