@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSimpleDDS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSimpleDDS",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
