@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testLookupFindServiceIfFoundIfNoneExecutesIfFound" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupFindServiceIfFoundIfNoneExecutesIfNone" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupFindServiceIfNoneExecutesIfNone" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupServiceGivesAService" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupServiceRegistersAService" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupServiceRegistersAServiceWithTypeHolders" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupServiceRegistersWithTypeAServiceIsTyped" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupServiceRegistersWithTypeHasMarshallers" : "SantiagoBragagnolo 8/11/2015 13:44",
+		"testLookupUnexistantServiceExplodes" : "SantiagoBragagnolo 8/11/2015 13:44" } }
