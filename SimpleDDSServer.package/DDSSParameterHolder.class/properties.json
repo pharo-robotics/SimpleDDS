@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDSServer-Parameters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/12/2014 18:49",
+	"instvars" : [
+		"value",
+		"namespace" ],
+	"name" : "DDSSParameterHolder",
+	"pools" : [
+		 ],
+	"super" : "MDDSEntity",
+	"type" : "normal" }

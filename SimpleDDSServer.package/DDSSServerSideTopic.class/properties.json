@@ -1,0 +1,16 @@
+{
+	"category" : "SimpleDDSServer-Domain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 2/8/2015 18:06",
+	"instvars" : [
+		"type",
+		"subscribed",
+		"publishers" ],
+	"name" : "DDSSServerSideTopic",
+	"pools" : [
+		 ],
+	"super" : "MDDSEntity",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SimpleDDSServer-Parameters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/12/2014 18:51",
+	"instvars" : [
+		"parent",
+		"namespaces",
+		"parameters" ],
+	"name" : "DDSSNamespace",
+	"pools" : [
+		 ],
+	"super" : "MDDSEntity",
+	"type" : "normal" }

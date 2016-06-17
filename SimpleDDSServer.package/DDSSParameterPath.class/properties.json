@@ -1,0 +1,15 @@
+{
+	"category" : "SimpleDDSServer-Parameters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/12/2014 18:54",
+	"instvars" : [
+		"steps",
+		"parameterName" ],
+	"name" : "DDSSParameterPath",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

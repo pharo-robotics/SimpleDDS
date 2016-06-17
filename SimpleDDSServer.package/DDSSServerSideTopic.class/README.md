@@ -1,0 +1,1 @@
+This descriptor adds some descriptions needed for serving a domain, allowing to track related participants

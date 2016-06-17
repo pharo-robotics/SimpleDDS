@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"ruleAbstractClassRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleImplementedNotSentRuleV1TODO" : "SantiagoBragagnolo 9/9/2015 14:18",
+		"ruleSentNotImplementedRuleV1TODO" : "SantiagoBragagnolo 9/9/2015 12:34",
+		"ruleTempsReadBeforeWrittenRuleV1FalsePositive" : "SantiagoBragagnolo 9/9/2015 12:41" },
+	"instance" : {
+		 } }

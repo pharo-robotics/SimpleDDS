@@ -1,0 +1,3 @@
+code-critics
+ruleTempsReadBeforeWrittenRuleV1FalsePositive
+	^ #(#(#(#RGMethodDefinition #(#DDSSDomainDescriptorServer #unregisterSubscriber:from:andCallerUri: #false)) #'2015-09-09T12:41:39.949035+02:00') #(#(#RGMethodDefinition #(#DDSDomainDescriptorXMLRPCServer #perform:withArguments: #false)) #'2015-09-09T12:41:39.949009+02:00') #(#(#RGMethodDefinition #(#DDSSDomainDescriptorServer #unregisterPublisher:from:andCallerUri: #false)) #'2015-09-09T12:41:39.949046+02:00') )

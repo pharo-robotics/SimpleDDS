@@ -1,0 +1,16 @@
+{
+	"category" : "SimpleDDSServer-Domain",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SantiagoBragagnolo 11/12/2014 18:55",
+	"instvars" : [
+		"topics",
+		"participants",
+		"announcer" ],
+	"name" : "DDSSAbstractDomainDescriptor",
+	"pools" : [
+		 ],
+	"super" : "MDDSProtoDomain",
+	"type" : "normal" }
