@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 outputMarshaller: anOutputMarshaller
 	outputMarshaller := anOutputMarshaller

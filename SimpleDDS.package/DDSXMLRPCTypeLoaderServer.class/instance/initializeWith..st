@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: aDomainProxy
 	serving := false.
 	ip := aDomainProxy ip.

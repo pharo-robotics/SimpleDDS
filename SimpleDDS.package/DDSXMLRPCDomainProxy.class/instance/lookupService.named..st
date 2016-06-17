@@ -1,4 +1,4 @@
-as yet unclassified
+unimplemented
 lookupService: aCallerId named: aServiceName
 	^ self
 		invokeMethod: 'lookupService'

@@ -1,4 +1,4 @@
-destroy
+accessing
 destroy
 	process
 		ifNotNil: [ 

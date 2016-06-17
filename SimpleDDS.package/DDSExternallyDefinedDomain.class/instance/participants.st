@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 participants
 	| freshParticipants toRemove |
 	freshParticipants := super participants.

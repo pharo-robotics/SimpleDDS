@@ -1,4 +1,4 @@
-as yet unclassified
+abstract
 loadTypeDefinitionNamed: aName definedFromString: aStringDefinition
 	| definition |
 	definition := STON reader

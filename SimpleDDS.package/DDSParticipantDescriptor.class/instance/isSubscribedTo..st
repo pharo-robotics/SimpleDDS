@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isSubscribedTo: aParameter
 	^ parameters includes: aParameter.

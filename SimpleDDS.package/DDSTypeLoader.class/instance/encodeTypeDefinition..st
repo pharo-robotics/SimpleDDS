@@ -1,4 +1,4 @@
-as yet unclassified
+type-encoding
 encodeTypeDefinition: aTypeDefinition
 	^ String
 		streamContents: [ :stream | 

@@ -1,4 +1,4 @@
-API-Registration
+implemented
 unregisterPublisher: aCallerId from: aTopicName andCallerUri: anUri
 	^ self
 		invokeMethod: 'unregisterPublisher'

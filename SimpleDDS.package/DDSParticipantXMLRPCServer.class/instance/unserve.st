@@ -1,4 +1,4 @@
-as yet unclassified
+exposition
 unserve
 	self isServing
 		ifTrue: [ 

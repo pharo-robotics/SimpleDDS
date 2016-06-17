@@ -1,4 +1,4 @@
-as yet unclassified
+visitor
 acceptConnectionFrom: aSocketListener with: aSetOfOffers
 	| socket stream |
 	socket := nil.

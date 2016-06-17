@@ -1,3 +1,3 @@
-as yet unclassified
+abstract
 uriFor: aMDDSDomainParticipantMirror
 	^ proxy uriFor: aMDDSDomainParticipantMirror

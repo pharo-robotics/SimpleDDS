@@ -1,3 +1,3 @@
-as yet unclassified
+parameters
 noteParameterDeleted: aParameterAnnouncement
 	mirror noteParameterDeleted: aParameterAnnouncement 

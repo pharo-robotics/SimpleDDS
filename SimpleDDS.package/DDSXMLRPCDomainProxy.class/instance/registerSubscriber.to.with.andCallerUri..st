@@ -1,4 +1,4 @@
-API-Registration
+implemented
 registerSubscriber: aCallerId to: aTopicName with: aTopicMessageType andCallerUri: anUri
 	^ self
 		invokeMethod: 'registerSubscriber'

@@ -1,4 +1,4 @@
-setup
+running
 setUp
 	server := DDSDomainDescriptorXMLRPCServer serve: DDSSDomainDescriptor new.
 	server domain: DDSSDomainDescriptor new.

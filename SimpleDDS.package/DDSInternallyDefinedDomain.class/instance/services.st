@@ -1,3 +1,3 @@
-query
+System-FileRegistry
 services
 	^ createdServices values

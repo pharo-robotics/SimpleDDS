@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 headerProtocol
 	^ headerProtocol
 		ifNil: [ headerProtocol := MDDSHeaderProtocol encoding: MDDSHeaderEncoder decoding: MDDSHeaderDecoder ]

@@ -1,3 +1,3 @@
-as yet unclassified
+exposition
 serve
 	self subclassResponsibility 

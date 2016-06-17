@@ -1,4 +1,4 @@
-entry point
+private
 monitor
 	[ self analyzeCurrentState.
 	domain mirror

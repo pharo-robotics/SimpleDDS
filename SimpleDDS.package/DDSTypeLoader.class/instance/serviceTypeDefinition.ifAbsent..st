@@ -1,4 +1,4 @@
-as yet unclassified
+type management
 serviceTypeDefinition: aTypeName ifAbsent: aBlock 
 	^ registry
 		at: aTypeName

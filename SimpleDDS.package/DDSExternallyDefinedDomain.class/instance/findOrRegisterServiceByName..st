@@ -1,3 +1,3 @@
-as yet unclassified
+query
 findOrRegisterServiceByName: aServiceName
 	^ self findOrRegisterServiceByName: aServiceName type: MDDSTypeDescriptor unknownWildcard

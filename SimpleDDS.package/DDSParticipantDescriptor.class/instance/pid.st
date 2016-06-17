@@ -1,3 +1,3 @@
-pid
+accessing
 pid
 	^ self participant getPid

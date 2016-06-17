@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 socket: aSocket
 	socket := aSocket

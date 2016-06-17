@@ -1,3 +1,3 @@
-as yet unclassified
+abstract
 remoteUriFor: aParticipantName
 	^ proxy remoteUriFor: aParticipantName

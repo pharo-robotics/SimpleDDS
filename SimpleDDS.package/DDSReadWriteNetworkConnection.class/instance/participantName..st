@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 participantName: aParticipantName
 	participantName := aParticipantName

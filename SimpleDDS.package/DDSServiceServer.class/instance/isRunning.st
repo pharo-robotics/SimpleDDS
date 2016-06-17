@@ -1,3 +1,3 @@
-accessing
+testing
 isRunning
 	self subclassResponsibility.

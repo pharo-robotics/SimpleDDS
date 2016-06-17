@@ -1,4 +1,4 @@
-as yet unclassified
+private
 createExampleDomain
 	| domain |
 	domain := DDSExternallyDefinedDomain onSimpleDDS: 'http://127.0.0.1:11311'.	" Add the protocol support "

@@ -1,3 +1,3 @@
-as yet unclassified
+abstract
 typeDefinition: aTypeId
 	^ self typeDefinition: aTypeId ifAbsent: [ self error: ' There is no type named ' , aTypeId]

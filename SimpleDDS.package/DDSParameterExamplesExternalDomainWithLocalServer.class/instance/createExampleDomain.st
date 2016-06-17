@@ -1,4 +1,4 @@
-example
+private
 createExampleDomain
 	| domain |
 	domain := DDSExternallyDefinedDomain onLocalSimpleDDS: server.	" Add the protocol support "

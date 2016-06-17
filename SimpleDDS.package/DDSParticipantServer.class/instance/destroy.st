@@ -1,4 +1,4 @@
-exposition
+accessing
 destroy
 	self unserve.
 	participantMirror := nil.

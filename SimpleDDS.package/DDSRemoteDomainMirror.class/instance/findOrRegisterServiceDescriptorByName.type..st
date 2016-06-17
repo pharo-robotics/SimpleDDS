@@ -1,4 +1,4 @@
-as yet unclassified
+query
 findOrRegisterServiceDescriptorByName: aServiceName type: aTypeName
 	^ proxy
 		findOrRegisterServiceDescriptorByName: aServiceName

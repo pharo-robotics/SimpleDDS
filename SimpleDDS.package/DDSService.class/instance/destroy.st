@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 destroy
 	servers
 		do: #destroy;

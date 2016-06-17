@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 inputMarshaller: anInputMarshaller
 	inputMarshaller := anInputMarshaller

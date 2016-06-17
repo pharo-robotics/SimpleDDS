@@ -1,3 +1,3 @@
-query
+port
 obtainPort
 	^ portResolver obtainPort.

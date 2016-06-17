@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isUndefined
 	^  (domain isServiceTypeDefined: name) not 

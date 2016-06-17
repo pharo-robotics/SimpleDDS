@@ -1,4 +1,4 @@
-notifications
+accessing
 noteIsRegisteredIn: aPublisher
 	connectionOffer := MDDSConnectionOffer
 		publisher: aPublisher

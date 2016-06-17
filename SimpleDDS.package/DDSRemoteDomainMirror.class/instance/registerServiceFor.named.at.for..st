@@ -1,4 +1,4 @@
-as yet unclassified
+API
 registerServiceFor: aCallerId named: serviceName at: aROSRPCUrl for: aXMLRPCUrl
 	^ proxy
 		registerServiceFor: aCallerId

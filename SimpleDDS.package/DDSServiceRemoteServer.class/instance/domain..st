@@ -1,3 +1,3 @@
-accesing
+accessing
 domain: aDomain
 	domain := aDomain

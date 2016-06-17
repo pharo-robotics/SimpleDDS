@@ -1,4 +1,4 @@
-as yet unclassified
+abstract
 typeDefinition: aTypeName ifAbsent: aBlock
 	^ registry
 		at: aTypeName

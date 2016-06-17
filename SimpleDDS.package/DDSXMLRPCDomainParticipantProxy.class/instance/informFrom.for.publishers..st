@@ -1,4 +1,4 @@
-as yet unclassified
+publishing metadata
 informFrom: aCallerID for: aTopicName publishers: anArrayOfPublishers
 	^ self
 		invokeMethod: 'publisherUpdate'

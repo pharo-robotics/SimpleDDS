@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 reflectParticipant: aDDSDomainParticipant
 	^ mirror reflectParticipant: aDDSDomainParticipant

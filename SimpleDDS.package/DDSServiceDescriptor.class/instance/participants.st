@@ -1,3 +1,3 @@
-as yet unclassified
+abstract
 participants
 	self shouldBeImplemented.

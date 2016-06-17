@@ -1,3 +1,3 @@
-as yet unclassified
+abstract
 participantServerFor: aDDSDomainParticipant 
 	^ mirror participantServerFor: aDDSDomainParticipant 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 destroy
 	stream close.
 	stream := nil.

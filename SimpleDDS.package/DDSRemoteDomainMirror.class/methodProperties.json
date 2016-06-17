@@ -6,6 +6,8 @@
 		"createServiceCallerFor:forCalling:" : "SantiagoBragagnolo 8/26/2015 15:52",
 		"findOrRegisterServiceDescriptorByName:type:" : "SantiagoBragagnolo 8/11/2015 17:26",
 		"findParticipantByName:" : "SantiagoBragagnolo 2/11/2015 14:00",
+		"findServiceByName:" : "SantiagoBragagnolo 2/11/2015 14:07",
+		"findServiceByName:ifFound:ifNone:" : "SantiagoBragagnolo 8/26/2015 14:01",
 		"forceReRegistrationOfPublication:for:" : "SantiagoBragagnolo 6/26/2015 16:00",
 		"forceReRegistrationOfService:for:" : "SantiagoBragagnolo 9/15/2015 11:20",
 		"forceReRegistrationOfSubscription:for:" : "SantiagoBragagnolo 6/26/2015 15:59",

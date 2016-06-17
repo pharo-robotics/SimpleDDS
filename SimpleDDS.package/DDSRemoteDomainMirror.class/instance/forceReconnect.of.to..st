@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 forceReconnect: aParticipant of: aSubscriber to: anUrl
 	| mirror |
 	mirror := self reflectParticipant: aParticipant.
