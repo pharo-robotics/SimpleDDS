@@ -1,0 +1,15 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+
+# Select compatible Smalltalk image(s)
+smalltalk:
+
+  - Pharo-alpha
+  - Pharo-stable
+  - Pharo-5.0
+
+
