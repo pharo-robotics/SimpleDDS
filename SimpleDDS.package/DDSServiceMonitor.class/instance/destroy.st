@@ -2,6 +2,6 @@ accessing
 destroy
 	process
 		ifNotNil: [ 
-			process cancel.
+			process stop.
 			process := nil ].
 	domain := nil

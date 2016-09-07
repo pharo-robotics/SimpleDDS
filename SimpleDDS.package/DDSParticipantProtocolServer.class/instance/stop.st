@@ -4,6 +4,6 @@ stop
 	listener destroy.
 	proc := process.
 	process := nil.
-	proc cancel.
+	proc stop.
 	participant := nil.
 	^ self
