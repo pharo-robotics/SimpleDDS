@@ -9,7 +9,7 @@ baseline: spec
 						className: #ConfigurationOfSton;
 						versionString: #stable;
 						repository: 'http://ss3.gemstone.com/ss/STON' ];
-				baseline: 'MetaDDS' with: [ spec repository: 'github://sbragagnolo/MetaDDS' ];
+				baseline: 'MetaDDS' with: [ spec repository: 'github://sbragagnolo/MetaDDS/src' ];
 				project: 'BabyMock2'
 					with: [ spec
 						className: #ConfigurationOfBabyMock2;
