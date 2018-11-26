@@ -1,15 +1,14 @@
 {
-	"category" : "SimpleDDS-Services",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/8/2015 13:45",
+	"super" : "DDSServiceServer",
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"connectionOffer",
-		"isRunning" ],
+		"isRunning"
+	],
 	"name" : "DDSExposedServiceServer",
-	"pools" : [
-		 ],
-	"super" : "DDSServiceServer",
-	"type" : "normal" }
+	"type" : "normal"
+}

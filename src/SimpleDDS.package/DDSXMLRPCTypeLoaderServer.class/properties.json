@@ -1,16 +1,15 @@
 {
-	"category" : "SimpleDDS-Discovery",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:09",
+	"super" : "DDSTypeLoader",
+	"category" : "SimpleDDS-Discovery",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"ip",
 		"port",
-		"serving" ],
+		"serving"
+	],
 	"name" : "DDSXMLRPCTypeLoaderServer",
-	"pools" : [
-		 ],
-	"super" : "DDSTypeLoader",
-	"type" : "normal" }
+	"type" : "normal"
+}

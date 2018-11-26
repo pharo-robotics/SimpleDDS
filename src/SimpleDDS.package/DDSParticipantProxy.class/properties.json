@@ -1,14 +1,13 @@
 {
-	"category" : "SimpleDDS-Proxy",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/8/2014 23:31",
-	"instvars" : [
-		"proxy" ],
-	"name" : "DDSParticipantProxy",
-	"pools" : [
-		 ],
 	"super" : "MDDSAbstractParticipantProxy",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Proxy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"proxy"
+	],
+	"name" : "DDSParticipantProxy",
+	"type" : "normal"
+}

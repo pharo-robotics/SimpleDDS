@@ -1,19 +1,18 @@
 {
-	"category" : "SimpleDDS-Services",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/14/2015 12:06",
+	"super" : "MDDSConnection",
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"stream",
 		"socket",
 		"participantName",
 		"outputMarshaller",
 		"inputMarshaller",
-		"isAServerSideConnection" ],
+		"isAServerSideConnection"
+	],
 	"name" : "DDSReadWriteNetworkConnection",
-	"pools" : [
-		 ],
-	"super" : "MDDSConnection",
-	"type" : "normal" }
+	"type" : "normal"
+}

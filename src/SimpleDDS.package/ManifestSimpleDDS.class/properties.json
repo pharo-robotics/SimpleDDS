@@ -1,14 +1,11 @@
 {
-	"category" : "SimpleDDS",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "ManifestSimpleDDS",
-	"pools" : [
-		 ],
 	"super" : "PackageManifest",
-	"type" : "normal" }
+	"category" : "SimpleDDS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestSimpleDDS",
+	"type" : "normal"
+}

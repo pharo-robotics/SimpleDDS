@@ -1,14 +1,11 @@
 {
-	"category" : "SimpleDDS-Publishing",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/13/2014 23:02",
-	"instvars" : [
-		 ],
-	"name" : "DDSPublication",
-	"pools" : [
-		 ],
 	"super" : "MDDSPublication",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Publishing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DDSPublication",
+	"type" : "normal"
+}

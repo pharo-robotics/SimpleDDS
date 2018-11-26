@@ -1,14 +1,11 @@
 {
-	"category" : "SimpleDDS-Proxy",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "DDSXMLRPCDomainProxy",
-	"pools" : [
-		 ],
 	"super" : "DDSXMLRPCProxy",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Proxy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DDSXMLRPCDomainProxy",
+	"type" : "normal"
+}

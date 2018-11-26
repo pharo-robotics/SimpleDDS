@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"configureHeader:" : "SantiagoBragagnolo 8/27/2015 14:53",
-		"createConnectionFor:on:and:for:" : "SantiagoBragagnolo 8/27/2015 13:56",
-		"noteNewConnection:" : "SantiagoBragagnolo 8/27/2015 14:58",
-		"service:" : "SantiagoBragagnolo 8/27/2015 14:50",
-		"validateAndProcessHeader:" : "SantiagoBragagnolo 9/10/2015 16:18" } }

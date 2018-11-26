@@ -1,15 +1,14 @@
 {
-	"category" : "SimpleDDS-Services",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/8/2015 13:41",
+	"super" : "Object",
+	"category" : "SimpleDDS-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"participant",
-		"service" ],
+		"service"
+	],
 	"name" : "DDSServiceCaller",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

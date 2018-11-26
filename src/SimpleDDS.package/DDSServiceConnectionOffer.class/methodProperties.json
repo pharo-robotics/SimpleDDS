@@ -1,6 +1,0 @@
-{
-	"class" : {
-		"service:participant:onNewConnection:" : "SantiagoBragagnolo 8/28/2015 12:21" },
-	"instance" : {
-		"noteNewConnection:" : "SantiagoBragagnolo 9/14/2015 12:02",
-		"onNewConnection:" : "SantiagoBragagnolo 8/14/2015 14:54" } }

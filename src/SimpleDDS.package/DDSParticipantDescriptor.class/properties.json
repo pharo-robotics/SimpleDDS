@@ -1,14 +1,13 @@
 {
-	"category" : "SimpleDDS-Domain",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 12/2/2014 14:46",
-	"instvars" : [
-		"parameters" ],
-	"name" : "DDSParticipantDescriptor",
-	"pools" : [
-		 ],
 	"super" : "MDDSParticipantDescriptor",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parameters"
+	],
+	"name" : "DDSParticipantDescriptor",
+	"type" : "normal"
+}

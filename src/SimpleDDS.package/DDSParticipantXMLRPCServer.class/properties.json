@@ -1,14 +1,13 @@
 {
-	"category" : "SimpleDDS-ParticipantServer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/13/2014 22:48",
-	"instvars" : [
-		"serving" ],
-	"name" : "DDSParticipantXMLRPCServer",
-	"pools" : [
-		 ],
 	"super" : "DDSParticipantServer",
-	"type" : "normal" }
+	"category" : "SimpleDDS-ParticipantServer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"serving"
+	],
+	"name" : "DDSParticipantXMLRPCServer",
+	"type" : "normal"
+}

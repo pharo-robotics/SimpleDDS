@@ -1,15 +1,14 @@
 {
-	"category" : "SimpleDDS-Discovery",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/24/2014 00:07",
+	"super" : "Object",
+	"category" : "SimpleDDS-Discovery",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"registry",
-		"proxy" ],
+		"proxy"
+	],
 	"name" : "DDSTypeLoader",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,19 +1,18 @@
 {
-	"category" : "SimpleDDS-Publishing",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 10/6/2014 18:33",
+	"super" : "Object",
+	"category" : "SimpleDDS-Publishing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"protocol",
 		"port",
 		"ip",
 		"process",
 		"listener",
-		"participant" ],
+		"participant"
+	],
 	"name" : "DDSParticipantProtocolServer",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

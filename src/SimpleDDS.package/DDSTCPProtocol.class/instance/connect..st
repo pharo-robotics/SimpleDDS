@@ -5,10 +5,6 @@ connect: aMDDSConnectionPetition
 	stream := SocketStream on: socket.
 	stream binary.
 	socket
-		connectTo:
-			(NetNameResolver addressFromString: aMDDSConnectionPetition ip)
+		connectTo: (self resolveIpForPetition: aMDDSConnectionPetition)
 		port: aMDDSConnectionPetition port.
-	^ self
-		shakeHandsWith: socket
-		and: stream
-		accordingTo: aMDDSConnectionPetition
+	^ self shakeHandsWith: socket and: stream accordingTo: aMDDSConnectionPetition

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"createExampleDomain" : "SantiagoBragagnolo 11/28/2014 12:10",
-		"exampleParameter" : "SantiagoBragagnolo 12/1/2014 16:41",
-		"runExample" : "SantiagoBragagnolo 9/5/2016 17:42",
-		"setUp" : "SantiagoBragagnolo 12/1/2014 16:37",
-		"tearDown" : "SantiagoBragagnolo 12/1/2014 16:37" } }

@@ -1,14 +1,13 @@
 {
-	"category" : "SimpleDDS-Examples",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 11/28/2014 11:09",
-	"instvars" : [
-		"domain" ],
-	"name" : "DDSTopicExamplesInternalDomain",
-	"pools" : [
-		 ],
 	"super" : "DDSTopicExamples",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domain"
+	],
+	"name" : "DDSTopicExamplesInternalDomain",
+	"type" : "normal"
+}

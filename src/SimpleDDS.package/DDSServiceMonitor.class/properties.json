@@ -1,10 +1,10 @@
 {
-	"category" : "SimpleDDS-Domain",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 6/25/2015 17:46",
+	"super" : "Object",
+	"category" : "SimpleDDS-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"domain",
 		"process",
@@ -15,9 +15,8 @@
 		"masterMetaDataHasChanged",
 		"threadshold",
 		"anyRecoveryMethodHasbeenExecuted",
-		"rate" ],
+		"rate"
+	],
 	"name" : "DDSServiceMonitor",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

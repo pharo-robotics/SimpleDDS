@@ -1,14 +1,13 @@
 {
-	"category" : "SimpleDDS-Protocols",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 8/14/2015 15:45",
-	"instvars" : [
-		"service" ],
-	"name" : "DDSServiceConnectionDescription",
-	"pools" : [
-		 ],
 	"super" : "MDDSConnectionDescription",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Protocols",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"service"
+	],
+	"name" : "DDSServiceConnectionDescription",
+	"type" : "normal"
+}

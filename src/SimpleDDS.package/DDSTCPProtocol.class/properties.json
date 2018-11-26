@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "SantiagoBragagnolo 10/1/2014 12:21",
+	"super" : "MDDSProtocol",
 	"category" : "SimpleDDS-Protocols",
 	"classinstvars" : [
 		"headerDefinition",
-		"header" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "SantiagoBragagnolo 10/1/2014 12:21",
+		"header"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"headerProtocol" ],
+		"headerProtocol"
+	],
 	"name" : "DDSTCPProtocol",
-	"pools" : [
-		 ],
-	"super" : "MDDSProtocol",
-	"type" : "normal" }
+	"type" : "normal"
+}

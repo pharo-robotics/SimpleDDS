@@ -1,14 +1,11 @@
 {
-	"category" : "SimpleDDS-Error",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SantiagoBragagnolo 9/14/2015 12:08",
-	"instvars" : [
-		 ],
-	"name" : "DDSServiceCallFailed",
-	"pools" : [
-		 ],
 	"super" : "MDDSError",
-	"type" : "normal" }
+	"category" : "SimpleDDS-Error",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DDSServiceCallFailed",
+	"type" : "normal"
+}
