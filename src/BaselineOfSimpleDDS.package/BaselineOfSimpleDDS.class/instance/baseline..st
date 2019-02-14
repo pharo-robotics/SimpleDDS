@@ -12,7 +12,7 @@ baseline: spec
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/zeroflag/BabyMock2/main/' ].
 			spec
-				package: #SimpleDDS with: [ spec requires: #('MetaDDS' 'Ston') ];
+				package: #SimpleDDS with: [ spec requires: #('MetaDDS') ];
 				package: #SimpleDDSTesting
 					with: [ spec requires: #(#SimpleDDS 'BabyMock2') ].
 			spec
