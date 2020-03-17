@@ -9,7 +9,7 @@ synchronizeSubscribersOf: aTopic connectionsTo: aSetOfPublishers
 					[ :association | association value
 						ifTrue:
 							[ self
-								logCr:
+								traceCr:
 									(''
 										join:
 											{'WARN: The publisher '.
@@ -18,17 +18,17 @@ synchronizeSubscribersOf: aTopic connectionsTo: aSetOfPublishers
 											subscription participant name.
 											' trying to connect'}).
 							[ self ensureConnectionsOf: subscription participant at: aTopic subscriber to: (domain mirror remoteUriFor: association key).
-							self logCr: 'INFO: publisher connection successfully restored' ]
+							self traceCr: 'INFO: publisher connection successfully restored' ]
 								on: Error
 								do: [ :err | self
-										logCr:
+										traceCr:
 											(''
 												join:
 													{'ERROR: error during publisher reconnection '.
 													err messageText}) ] ]
 						ifFalse:
 							[ self
-								logCr:
+								traceCr:
 									(''
 										join:
 											{' WARN: The publisher '.

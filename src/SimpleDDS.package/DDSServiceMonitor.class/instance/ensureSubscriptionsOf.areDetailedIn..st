@@ -5,7 +5,7 @@ ensureSubscriptionsOf: aTopic areDetailedIn: aSetOfSubscribers
 			[ :subscription | (aSetOfSubscribers includes: subscription participant name)
 				ifFalse:
 					[ self
-						logCr:
+						traceCr:
 							(''
 								join:
 									{'WARN: '.
@@ -14,6 +14,6 @@ ensureSubscriptionsOf: aTopic areDetailedIn: aSetOfSubscribers
 									aTopic name}).
 					[ anyRecoveryMethodHasbeenExecuted := true.
 					domain mirror forceReRegistrationOfSubscription: subscription for: aTopic subscriber.
-					self logCr: 'INFO: topic registered successfully. ' ]
+					self traceCr: 'INFO: topic registered successfully. ' ]
 						on: Error
-						do: [ :err | self logCr: 'ERROR: during topic registration. Is the master working? Is the network stable?' ] ] ]
+						do: [ :err | self traceCr: 'ERROR: during topic registration. Is the master working? Is the network stable?' ] ] ]

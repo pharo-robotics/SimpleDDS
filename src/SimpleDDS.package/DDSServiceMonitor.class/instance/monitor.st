@@ -4,7 +4,7 @@ monitor
 	domain mirror
 		ifNotNil: [ self whenReconnectionOrRoutine: [ self synchronizeDomains ] ]
 		ifNil: [ self
-				logCr:
+				traceCr:
 					'WARNING: domain mirror is not yet setup. Service monitor cannot start to run' ].
 	self wait ]
 		on: Error

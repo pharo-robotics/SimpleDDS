@@ -7,7 +7,7 @@ start
 				onSetUpDo:
 					(MessageSend
 						receiver: self
-						selector: #logCr:
+						selector: #traceCr:
 						argument: 'DDS System monitor has started').
 			process
 				onTearDownDo: [ self traceCr: 'DDS System monitor has finished' ].

@@ -3,4 +3,4 @@ noteParameterChanged: aParameter for: aCallerID
 	[ proxy from: aCallerID update: aParameter name with: aParameter value ]
 		on: ConnectionTimedOut
 		do: [ 
-			self logCr: 'Error informing parameter' ]
+			self traceCr: 'Error informing parameter' ]

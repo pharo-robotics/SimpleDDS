@@ -22,7 +22,7 @@ synchronizePublisherOf: aTopic connectionsTo: aSetOfSubscribers
 											' is not actually connected with '.
 											publication participant name}) ]
 						ifFalse: [ self
-								logCr:
+								traceCr:
 									(''
 										join:
 											{'WARN: The subscriber '.

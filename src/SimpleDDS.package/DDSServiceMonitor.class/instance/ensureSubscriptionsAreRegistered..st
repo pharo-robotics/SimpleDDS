@@ -10,4 +10,4 @@ ensureSubscriptionsAreRegistered: aTopic
 			self traceCr: 'INFO: re-subscribing done successfully' ] ]
 		on: Error
 		do:
-			[ :err | self logCr: 'ERROR: During re registration of topic publisher ' ]
+			[ :err | self traceCr: 'ERROR: During re registration of topic publisher ' ]

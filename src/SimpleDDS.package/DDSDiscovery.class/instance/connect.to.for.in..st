@@ -17,5 +17,5 @@ connect: anUrl to: aSubscriber for: aParticipantMirror in: aDomain
 	connection marshaller: aSubscriber topic type marshaller.
 	(aSubscriber subscriptionFor: aParticipantMirror participant) registerConnection: connection ]
 		on: ConnectionTimedOut
-		do: [ :e | self logCr: e messageText.
+		do: [ :e | self traceCr: e messageText.
 			self increaseBlacklistCounterFor: anUrl ]
