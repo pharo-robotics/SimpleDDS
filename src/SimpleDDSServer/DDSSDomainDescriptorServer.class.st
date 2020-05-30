@@ -25,11 +25,11 @@ DDSSDomainDescriptorServer class >> serve: aDomain [
 { #category : #'as yet unclassified' }
 DDSSDomainDescriptorServer class >> startSingleServer [
 	server
-		ifNil: [ server := DDSSDomainDescriptorServer
-				xmlrpcServerOn: DDSSDomainDescriptor new.
+		ifNil: [ server := self xmlrpcServerOn: DDSSDomainDescriptor new.
 			serverDescriptor := DDSSDomainDescriptor new.
 			server domain: serverDescriptor.
-			server serveAt: 11311 ]
+			server serveAt: 11311.
+			self inform: 'Starting at port 11311' ]
 		ifNotNil: [ self error: 'server already there.' ]
 ]
 
