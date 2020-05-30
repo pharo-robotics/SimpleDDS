@@ -1,3 +1,0 @@
-parameters
-noteParameterDeleted: aParameterAnnouncement
-	mirror noteParameterDeleted: aParameterAnnouncement 

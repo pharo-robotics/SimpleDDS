@@ -1,1 +1,0 @@
-A service caller is an object capable to find the object in charge of 'serving' locally  (a local implementation or a proxy to a remote implementation), and ask for the service, giving back the response of the service execution. 

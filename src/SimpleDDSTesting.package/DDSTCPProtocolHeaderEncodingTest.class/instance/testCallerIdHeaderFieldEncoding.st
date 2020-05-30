@@ -1,3 +1,0 @@
-testing
-testCallerIdHeaderFieldEncoding
-	self assertEncodedEqualsExpectedInLast: 37 ofFirstElements: 81

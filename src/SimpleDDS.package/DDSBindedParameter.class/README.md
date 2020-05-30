@@ -1,1 +1,0 @@
-A DDSBindedParameter is a reification of a parameter. It has the actual value and the participant which it belongs to.

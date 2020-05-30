@@ -1,3 +1,0 @@
-abstract
-participantServerFor: aDDSDomainParticipant
-	^ proxy participantServerFor: aDDSDomainParticipant

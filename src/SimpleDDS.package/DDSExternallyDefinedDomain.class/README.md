@@ -1,1 +1,0 @@
-This externally defined subclass adds parameter management.

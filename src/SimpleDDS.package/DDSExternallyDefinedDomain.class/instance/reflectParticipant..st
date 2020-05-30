@@ -1,3 +1,0 @@
-accessing
-reflectParticipant: aDDSDomainParticipant
-	^ mirror reflectParticipant: aDDSDomainParticipant

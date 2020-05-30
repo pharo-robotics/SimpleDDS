@@ -1,3 +1,0 @@
-testing
-isConnected
-	^ service hasServers

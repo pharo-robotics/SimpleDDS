@@ -1,1 +1,0 @@
-A RoStProxy is an XML RPC proxy that wraps retrun values of method invokations into instances of RoStReturnValue

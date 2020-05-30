@@ -1,4 +1,0 @@
-as yet unclassified
-testDoesReconnectedBackendWithNewState
-	monitor analyzeCurrentState.
-	self assert: monitor masterHasBeenReconnected

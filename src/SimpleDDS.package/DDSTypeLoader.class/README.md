@@ -1,1 +1,0 @@
-A DDSTypeLoader shares API with MDDSTypeLoader, but it relies sharing information with the external domain

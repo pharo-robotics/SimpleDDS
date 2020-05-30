@@ -1,2 +1,0 @@
-accessing
-noteParameterChanged: aParameterAnnouncement

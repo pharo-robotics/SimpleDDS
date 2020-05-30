@@ -1,1 +1,0 @@
-A DDSServiceRemoteServer represnets a remote implementation of a service. This object is able to call a remote service throguh a given protocol, object that will care about the marshalling 

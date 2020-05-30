@@ -1,3 +1,0 @@
-accessing
-createdTopics
-	^ createdTopics values

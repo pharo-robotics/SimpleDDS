@@ -1,1 +1,0 @@
-A service type is a type with two marshallers: one for incoming data and other for outgoing data.

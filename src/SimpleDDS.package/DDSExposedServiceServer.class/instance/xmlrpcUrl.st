@@ -1,3 +1,0 @@
-accessing
-xmlrpcUrl
-	^ participant relatedXmlRpcServerUrl

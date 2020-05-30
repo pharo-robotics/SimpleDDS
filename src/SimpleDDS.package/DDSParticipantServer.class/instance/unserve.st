@@ -1,3 +1,0 @@
-exposition
-unserve
-	self subclassResponsibility 

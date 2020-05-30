@@ -1,3 +1,0 @@
-private
-createExampleDomain
-	self subclassResponsibility.

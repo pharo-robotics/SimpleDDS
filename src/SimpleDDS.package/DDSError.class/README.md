@@ -1,1 +1,0 @@
-Error for PhaROS. used mainly by tests.

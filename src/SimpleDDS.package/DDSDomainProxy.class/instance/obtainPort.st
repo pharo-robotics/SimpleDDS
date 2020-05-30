@@ -1,3 +1,0 @@
-port
-obtainPort
-	^ portResolver obtainPort.

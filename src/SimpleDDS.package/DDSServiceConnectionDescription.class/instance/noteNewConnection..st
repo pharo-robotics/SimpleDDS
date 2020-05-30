@@ -1,3 +1,0 @@
-as yet unclassified
-noteNewConnection: aDDSReadWriteNetworkConnection
-	^ aDDSReadWriteNetworkConnection

@@ -1,1 +1,0 @@
-A DDSParameterHasChanged indicates that the parameter has changed in the server side

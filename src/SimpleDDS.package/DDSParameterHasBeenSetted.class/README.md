@@ -1,1 +1,0 @@
-A DDSParameterHasBeenSetted indicates that the parameter has been setted in the binding object. the server should be update

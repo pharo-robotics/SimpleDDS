@@ -1,3 +1,0 @@
-parameters
-noteParameterSetted: aParameterAnnouncement 
-	mirror noteParameterSetted: aParameterAnnouncement .

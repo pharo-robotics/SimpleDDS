@@ -1,1 +1,0 @@
-Type loader for testing proposes

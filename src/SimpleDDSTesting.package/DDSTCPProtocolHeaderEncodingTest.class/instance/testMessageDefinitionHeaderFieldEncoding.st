@@ -1,3 +1,0 @@
-testing
-testMessageDefinitionHeaderFieldEncoding
-	self assertEncodedEqualsExpectedInLast: 32 ofFirstElements: 40

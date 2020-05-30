@@ -1,3 +1,0 @@
-code-critics
-ruleAbstractClassRuleV1FalsePositive
-	^ #(#(#(#RGMethodDefinition #(#DDSSettingUpDomainExamples #exampleCreateExternallyDefinedDomainMDDSFlavor #false)) #'2015-09-09T12:34:29.825459+02:00') #(#(#RGMethodDefinition #(#DDSTypeLoader #encodeTypeDefinition: #false)) #'2015-09-09T12:34:29.825492+02:00') #(#(#RGMethodDefinition #(#DDSParticipantServer #getPid: #false)) #'2015-09-09T12:34:29.82533+02:00') )
