@@ -34,6 +34,16 @@ DDSSDomainDescriptorServer class >> startSingleServer [
 ]
 
 { #category : #'as yet unclassified' }
+DDSSDomainDescriptorServer class >> stopSingleServer [
+	server
+		ifNotNil: [ server stop.
+			server domain: nil.
+			server := nil.
+			serverDescriptor := nil ]
+		ifNil: [ self error: 'server not there.' ]
+]
+
+{ #category : #'as yet unclassified' }
 DDSSDomainDescriptorServer class >> worldMenuOn: aBuilder [
 	<worldMenu>
 	
@@ -43,7 +53,14 @@ DDSSDomainDescriptorServer class >> worldMenuOn: aBuilder [
 		order: 0;
 		icon:( self iconNamed: #glamorousGo);
 		help: 'Start an instance ';
-		action: [ self startSingleServer ]
+		action: [ self startSingleServer ].
+		
+		(aBuilder item: 'Stop SimpleDDS Server')
+		parent: #Tools;
+		order: 0;
+		icon:( self iconNamed: #stop);
+		help: 'Stop an instance ';
+		action: [ self stopSingleServer ]
 ]
 
 { #category : #'as yet unclassified' }
