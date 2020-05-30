@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'proxy'
 	],
-	#category : 'SimpleDDS-Proxy'
+	#category : #'SimpleDDS-Proxy'
 }
 
 { #category : #'as yet unclassified' }
@@ -44,7 +44,7 @@ DDSParticipantProxy >> noteParameterChanged: aParameter for: aCallerID [
 DDSParticipantProxy >> possibleConnectionsFor: aSubscriber for: aParticipantMirror in: aDomain [
 	| retrieve |
 	retrieve := proxy
-		requestFor: aDomain name
+		requestFor: aParticipantMirror name
 		theTopic: aSubscriber topic name
 		withProtocol: (aParticipantMirror protocols collect: #name).
 	^ MDDSConnectionPetition

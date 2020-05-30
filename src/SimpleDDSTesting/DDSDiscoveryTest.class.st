@@ -13,7 +13,7 @@ Class {
 		'subscriber',
 		'subcriber'
 	],
-	#category : 'SimpleDDSTesting-Discovery'
+	#category : #'SimpleDDSTesting-Discovery'
 }
 
 { #category : #'as yet unclassified' }
@@ -28,13 +28,14 @@ DDSDiscoveryTest >> setUp [
 	participant := protocol mock:'participant'.
 	protocol describe allow: participantMirror recv: #participant; => participant.
 	protocol describe allow: participantMirror recv: #protocols; => Set new.
-
+   protocol describe allow: participantMirror recv: #name; => 'Example'.
 	subscriber := protocol mock:'subscriber'.
 	subscription := protocol mock:'subscription'.
 	topic := protocol mock:'topic'.
 	protocol describe allow: subscriber recv:#subscriptionFor:ifNone:; => subscription.	
 	protocol describe allow: subscription recv:#connections; => Set new.
-	protocol describe allow: subscriber recv:#topic; => topic.		
+	protocol describe allow: subscriber recv:#topic; => topic.	
+		protocol describe allow: topic recv: #name; => 'Topic'.
 
 
 
