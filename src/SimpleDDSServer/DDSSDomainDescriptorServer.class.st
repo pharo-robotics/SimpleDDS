@@ -10,12 +10,57 @@ Class {
 		'domain',
 		'parameters'
 	],
-	#category : 'SimpleDDSServer-Domain'
+	#classInstVars : [
+		'server',
+		'serverDescriptor'
+	],
+	#category : #'SimpleDDSServer-Domain'
 }
 
 { #category : #'as yet unclassified' }
 DDSSDomainDescriptorServer class >> serve: aDomain [
 	^ self new domain: aDomain; yourself
+]
+
+{ #category : #'as yet unclassified' }
+DDSSDomainDescriptorServer class >> startSingleServer [
+	server
+		ifNil: [ server := self xmlrpcServerOn: DDSSDomainDescriptor new.
+			serverDescriptor := DDSSDomainDescriptor new.
+			server domain: serverDescriptor.
+			server serveAt: 11311.
+			self inform: 'Starting at port 11311' ]
+		ifNotNil: [ self error: 'server already there.' ]
+]
+
+{ #category : #'as yet unclassified' }
+DDSSDomainDescriptorServer class >> stopSingleServer [
+	server
+		ifNotNil: [ server stop.
+			server domain: nil.
+			server := nil.
+			serverDescriptor := nil ]
+		ifNil: [ self error: 'server not there.' ]
+]
+
+{ #category : #'as yet unclassified' }
+DDSSDomainDescriptorServer class >> worldMenuOn: aBuilder [
+	<worldMenu>
+	
+
+	(aBuilder item: 'Start SimpleDDS Server')
+		parent: #Tools;
+		order: 0;
+		icon:( self iconNamed: #glamorousGo);
+		help: 'Start an instance ';
+		action: [ self startSingleServer ].
+		
+		(aBuilder item: 'Stop SimpleDDS Server')
+		parent: #Tools;
+		order: 0;
+		icon:( self iconNamed: #stop);
+		help: 'Stop an instance ';
+		action: [ self stopSingleServer ]
 ]
 
 { #category : #'as yet unclassified' }
@@ -46,7 +91,7 @@ DDSSDomainDescriptorServer >> getParamNames: aCallerId [
 
 { #category : #'as yet unclassified' }
 DDSSDomainDescriptorServer >> getPid: aCallerID [
-	^ ThisOSProcess thisOSProcess pid
+	^self error: 'Must implement'
 ]
 
 { #category : #'as yet unclassified' }

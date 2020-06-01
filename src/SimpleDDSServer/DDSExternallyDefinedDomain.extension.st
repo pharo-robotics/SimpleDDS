@@ -1,7 +1,7 @@
 Extension { #name : #DDSExternallyDefinedDomain }
 
 { #category : #'*SimpleDDSServer-extentions' }
-DDSExternallyDefinedDomain classSide >> onLocalSimpleDDS: aDDSDomainDescriptorXMLRPCServer [
+DDSExternallyDefinedDomain class >> onLocalSimpleDDS: aDDSDomainDescriptorXMLRPCServer [
 	^ self
 		on:
 			(DDSRemoteDomainMirror
