@@ -4,11 +4,12 @@ A participant in ROS 1 is called node. This is the real proxy and it manages the
 Class {
 	#name : #DDSXMLRPCDomainParticipantProxy,
 	#superclass : #DDSXMLRPCProxy,
-	#category : 'SimpleDDS-Proxy'
+	#category : #'SimpleDDS-Proxy'
 }
 
 { #category : #'ros-xml-reponses' }
 DDSXMLRPCDomainParticipantProxy >> from: aCallerID update: aParameterName with: aValue [
+self halt.
 	^ self
 		invokeMethod: 'paramUpdate'
 		withArgs:

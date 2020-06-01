@@ -8,7 +8,7 @@ Class {
 		'registry',
 		'proxy'
 	],
-	#category : 'SimpleDDS-Discovery'
+	#category : #'SimpleDDS-Discovery'
 }
 
 { #category : #accessing }
@@ -27,7 +27,7 @@ DDSTypeLoader >> encodeTypeDefinition: aTypeDefinition [
 
 { #category : #'ros-xml-reponses' }
 DDSTypeLoader >> from: aCallerID update: aParameterName with: aValue [
-	registry := registry union: aValue
+	registry := registry union: aValue.
 ]
 
 { #category : #initialization }
@@ -98,9 +98,10 @@ DDSTypeLoader >> typeDefinition: aTypeName ifAbsent: aBlock [
 { #category : #installing }
 DDSTypeLoader >> unload [
 	self unserve.
-	registry removeAll.
-	proxy := nil.
-	
+	registry
+		ifNotNil: [ registry removeAll.
+			registry := nil ].
+	proxy := nil
 ]
 
 { #category : #exposition }

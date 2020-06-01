@@ -4,7 +4,7 @@ A RoStMasterProxy is the proxy for the ROS Master, that is the node that gives a
 Class {
 	#name : #DDSXMLRPCDomainProxy,
 	#superclass : #DDSXMLRPCProxy,
-	#category : 'SimpleDDS-Proxy'
+	#category : #'SimpleDDS-Proxy'
 }
 
 { #category : #'API-Parameter-Server' }
@@ -52,6 +52,11 @@ DDSXMLRPCDomainProxy >> hasParam: aCallerId named: aParameterName [
 		withArgs:
 			{aCallerId.
 			aParameterName}
+]
+
+{ #category : #accessing }
+DDSXMLRPCDomainProxy >> ip [
+	^ url host
 ]
 
 { #category : #implemented }

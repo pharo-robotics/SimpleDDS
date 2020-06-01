@@ -8,7 +8,7 @@ Class {
 		'servers',
 		'offers'
 	],
-	#category : 'SimpleDDS-Publishing'
+	#category : #'SimpleDDS-Publishing'
 }
 
 { #category : #initialization }
@@ -71,6 +71,6 @@ DDSDomainParticipant >> stopServers [
 
 { #category : #registration }
 DDSDomainParticipant >> unregisterConnectionOffer: aConnectionOffer [
-	offers remove: aConnectionOffer.
+	offers remove: aConnectionOffer ifAbsent: [].
 	offers isEmpty ifTrue: [ self stopServers ]
 ]

@@ -9,12 +9,18 @@ Class {
 		'port',
 		'serving'
 	],
-	#category : 'SimpleDDS-Discovery'
+	#category : #'SimpleDDS-Discovery'
 }
 
 { #category : #'as yet unclassified' }
 DDSXMLRPCTypeLoaderServer class >> on: aTypeLoader at: aPort [
 	^ self new typeLoader: aTypeLoader; port: aPort; yourself.
+]
+
+{ #category : #'publishing metadata' }
+DDSXMLRPCTypeLoaderServer >> from: aCallerID update: aParameterName with: aValue [
+	super from: aCallerID update: aParameterName with: aValue.
+	^ {1 . false . false}
 ]
 
 { #category : #'publishing metadata' }
