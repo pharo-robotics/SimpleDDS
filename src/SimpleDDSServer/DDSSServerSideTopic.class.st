@@ -9,7 +9,7 @@ Class {
 		'subscribed',
 		'publishers'
 	],
-	#category : 'SimpleDDSServer-Domain'
+	#category : #'SimpleDDSServer-Domain'
 }
 
 { #category : #'as yet unclassified' }
@@ -71,6 +71,11 @@ DDSSServerSideTopic >> subscribed [
 { #category : #'as yet unclassified' }
 DDSSServerSideTopic >> subscriber [
 	^ self
+]
+
+{ #category : #'as yet unclassified' }
+DDSSServerSideTopic >> topic [ 
+^ self
 ]
 
 { #category : #'as yet unclassified' }

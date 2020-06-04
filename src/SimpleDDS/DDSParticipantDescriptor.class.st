@@ -9,7 +9,7 @@ Class {
 	#instVars : [
 		'parameters'
 	],
-	#category : 'SimpleDDS-Domain'
+	#category : #'SimpleDDS-Domain'
 }
 
 { #category : #initialization }
@@ -36,4 +36,9 @@ DDSParticipantDescriptor >> pid [
 { #category : #'as yet unclassified' }
 DDSParticipantDescriptor >> subscribe: aParameter [
 	parameters add: aParameter
+]
+
+{ #category : #'as yet unclassified' }
+DDSParticipantDescriptor >> url [
+	^ self uri
 ]

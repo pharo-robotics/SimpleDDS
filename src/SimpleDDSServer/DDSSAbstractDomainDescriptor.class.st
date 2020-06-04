@@ -11,7 +11,7 @@ Class {
 		'participants',
 		'announcer'
 	],
-	#category : 'SimpleDDSServer-Domain'
+	#category : #'SimpleDDSServer-Domain'
 }
 
 { #category : #'as yet unclassified' }
@@ -45,12 +45,12 @@ DDSSAbstractDomainDescriptor >> note: anAnnouncement [
 
 { #category : #'as yet unclassified' }
 DDSSAbstractDomainDescriptor >> participantDescriptorFor: aName connectedAt: anUri [
-	^ participants detect: [ : p | p name = aName  ] ifNone: [ 
+	^ participants detect: [ : p | p name = aName  ] ifFound: [  : p | p uri: anUri  ]ifNone: [ 
 		| participant |
 		participant := self constructParticipantDescriptorNamed: aName connectedAt: anUri.
 		participants add: participant.
 		participant.
-	 ]
+	 ] 
 ]
 
 { #category : #'as yet unclassified' }

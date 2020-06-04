@@ -18,6 +18,12 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
+DDSSDomainDescriptorServer class >> inspectSingleServer [
+	server
+		inspect
+]
+
+{ #category : #'as yet unclassified' }
 DDSSDomainDescriptorServer class >> serve: aDomain [
 	^ self new domain: aDomain; yourself
 ]
@@ -61,6 +67,13 @@ DDSSDomainDescriptorServer class >> worldMenuOn: aBuilder [
 		icon:( self iconNamed: #stop);
 		help: 'Stop an instance ';
 		action: [ self stopSingleServer ]
+		.
+		(aBuilder item: 'Inspect SimpleDDS Server')
+		parent: #Tools;
+		order: 0;
+		icon:( self iconNamed: #inspect);
+		help: 'inspect an instance ';
+		action: [ self inspectSingleServer ]
 ]
 
 { #category : #'as yet unclassified' }
