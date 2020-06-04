@@ -18,7 +18,7 @@ Class {
 		'anyRecoveryMethodHasbeenExecuted',
 		'rate'
 	],
-	#category : 'SimpleDDS-Domain'
+	#category : #'SimpleDDS-Domain'
 }
 
 { #category : #'as yet unclassified' }
@@ -260,8 +260,8 @@ services is of the form
 
 	lastReadedState
 		ifNotNil:
-			[ self synchronizeLocalPublishersWith: (lastReadedState at: 1).
-			self synchronizeLocalSubscribersWith: (lastReadedState at: 2).
+			[ self synchronizeLocalPublishersWith: (lastReadedState at: 2).
+			self synchronizeLocalSubscribersWith: (lastReadedState at: 1).
 			self synchronizeLocalServiceServersWith: (lastReadedState at: 3) ]
 ]
 
@@ -325,6 +325,7 @@ DDSServiceMonitor >> synchronizeLocalSubscribersWith: subscriberSet [
 { #category : #synchronization }
 DDSServiceMonitor >> synchronizePublisherOf: aTopic connectionsTo: aSetOfSubscribers [
 	| join |
+
 	aTopic publisher publications
 		do: [ :publication | 
 			join := aSetOfSubscribers
