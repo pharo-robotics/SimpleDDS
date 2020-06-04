@@ -38,7 +38,7 @@ DDSParticipantDescriptor >> subscribe: aParameter [
 	parameters add: aParameter
 ]
 
-{ #category : #'as yet unclassified' }
-DDSParticipantDescriptor >> url [
-	^ self uri
+{ #category : #accessing }
+DDSParticipantDescriptor >> url [ 
+	^ uri
 ]
