@@ -9,7 +9,7 @@ Class {
 		'monitor',
 		'createdServices'
 	],
-	#category : 'SimpleDDS-Domain'
+	#category : #'SimpleDDS-Domain'
 }
 
 { #category : #construction }
@@ -85,7 +85,7 @@ DDSExternallyDefinedDomain >> createdTopics [
 
 { #category : #accessing }
 DDSExternallyDefinedDomain >> destroy [
-	monitor destroy.
+	monitor ifNotNil: [ monitor destroy].
 	createdServices
 		valuesDo: #destroy;
 		removeAll.

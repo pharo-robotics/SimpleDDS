@@ -9,7 +9,7 @@ Class {
 		'port',
 		'discovery'
 	],
-	#category : 'SimpleDDS-ParticipantServer'
+	#category : #'SimpleDDS-ParticipantServer'
 }
 
 { #category : #'as yet unclassified' }
@@ -41,6 +41,7 @@ DDSParticipantServer >> discovery: aDiscovery [
 { #category : #'ros-xml-reponses' }
 DDSParticipantServer >> from: aCallerID update: aParameterName with: aValue [
 	| domain parameter parameterName |
+	self halt.
 	domain := participantMirror participant domain.
 	parameterName := aParameterName last = $/
 		ifTrue: [ aParameterName copyFrom: 1 to: aParameterName size - 1 ]

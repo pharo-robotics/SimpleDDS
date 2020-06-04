@@ -12,7 +12,7 @@ Class {
 		'participantServers',
 		'registeredServices'
 	],
-	#category : 'SimpleDDS-Proxy'
+	#category : #'SimpleDDS-Proxy'
 }
 
 { #category : #'as yet unclassified' }
@@ -72,8 +72,11 @@ DDSDomainProxy >> createServerFor: aParticipantMirror [
 DDSDomainProxy >> destroy [
 	super destroy.
 	registeredTopics removeAll.
-	typeLoader ifNotNil: [ typeLoader unload ].
+	typeLoader
+		ifNotNil: [ typeLoader unload.
+			typeLoader := nil ].
 	proxy := nil.
+	portResolver := nil.
 	participantServers do: #destroy.
 	participantServers removeAll
 ]
@@ -98,7 +101,7 @@ DDSDomainProxy >> findServiceByName: aServiceName ifFound: ifFound ifNone: ifNon
 
 { #category : #'type management' }
 DDSDomainProxy >> informTypeRegistry: aTypeRegistry hasBeenModifiedAt: aDDSXMLRPCTypeLoaderServer [ 
-	proxy setParam: aDDSXMLRPCTypeLoaderServer name named: aDDSXMLRPCTypeLoaderServer containerName with: aTypeRegistry.
+	proxy setParam: aDDSXMLRPCTypeLoaderServer name named: aDDSXMLRPCTypeLoaderServer containerName with: aTypeRegistry .
 ]
 
 { #category : #initialization }
