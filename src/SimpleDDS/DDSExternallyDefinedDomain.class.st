@@ -102,7 +102,7 @@ DDSExternallyDefinedDomain >> findOrRegisterServiceByName: aServiceName type: aT
 	^ self
 		findServiceByName: aServiceName
 		ifFound: [ :s | 
-			self assert: s type name equals: aTypeName.
+			self assert: s type name = aTypeName.
 			s ]
 		ifNone: [ (mirror
 				findOrRegisterServiceDescriptorByName: aServiceName

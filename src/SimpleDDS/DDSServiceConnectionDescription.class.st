@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'service'
 	],
-	#category : 'SimpleDDS-Protocols'
+	#category : #'SimpleDDS-Protocols'
 }
 
 { #category : #'as yet unclassified' }
@@ -46,6 +46,9 @@ DDSServiceConnectionDescription >> service: aService [
 
 { #category : #'as yet unclassified' }
 DDSServiceConnectionDescription >> validateAndProcessHeader: aMDDSHandshakeHeader [
-	^ aMDDSHandshakeHeader probe = 1
-		or: [ aMDDSHandshakeHeader md5sum = service type md5sum ]
+
+	^ aMDDSHandshakeHeader service = service name or: [ 
+		  [ 
+		  aMDDSHandshakeHeader probe = 1 or: [ 
+			  aMDDSHandshakeHeader md5sum = service type md5sum ] ] ]
 ]
