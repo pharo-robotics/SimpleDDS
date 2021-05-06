@@ -1,14 +1,51 @@
 Extension { #name : #MacOSPlatform }
 
 { #category : #'*SimpleDDS' }
-MacOSPlatform >> resolveIp [
+MacOSPlatform >> interfaces [
+
+	^ (' ' split: (LibC resultOfCommand: 'ifconfig -l')) collect: [ :i | 
+		DDSNetworkInterface new name: i ]
+]
+
+{ #category : #'*SimpleDDS' }
+MacOSPlatform >> resolveIp: anInterface [
 
 	| ipStream ip |
-	ipStream := (LibC resultOfCommand: 'ifconfig') readStream.
+	ipStream := (LibC resultOfCommand:
+		             ('ifconfig {1}' format: { anInterface name })) lines.
+
+	(ipStream first beginsWith: 'ifconfig:') ifTrue: [ 
+		anInterface setInvalid: true.
+		^ self ].
+
 	[ ipStream atEnd ] whileFalse: [ 
 		ipStream upToAll: 'inet '.
-		ip := ipStream upToAll: ' '.
-		ip = '127.0.0.1' ifFalse: [ 
-			($. split: ip) size = 4 ifTrue: [ ^ ip ] ] ].
+		ip := ipStream upToAll: ' ' ].
 	^ nil
+]
+
+{ #category : #'*SimpleDDS' }
+MacOSPlatform >> resolveIpInto: anInterface [
+
+	| ipLines |
+	ipLines := (LibC resultOfCommand:
+		            ('ifconfig {1}' format: { anInterface name })) lines.
+	
+	(ipLines first beginsWith: 'ifconfig:' ) ifTrue: [ ^ anInterface setInvalid: true ].
+	ipLines detect: [ :l | (l indexOfSubCollection: 'inet ') > 0 ] ifFound: [ :l | 
+		| stream |
+		stream := l readStream.
+		stream upToAll: 'inet '.
+		anInterface ipV4: (stream upToAll: ' ').
+		stream upToAll: 'netmask'.
+		anInterface ipV4Mask: stream upToEnd ].
+
+	ipLines
+		detect: [ :l | 
+		(l indexOfSubCollection: 'inet6') > 0 and: [ (l indexOfSubCollection: '%') > 0 ] ]
+		ifFound: [ :l | 
+			| stream |
+			stream := l readStream.
+			stream upToAll: 'inet6'.
+			anInterface ipV6: (stream upToAll: ' ') ].
 ]

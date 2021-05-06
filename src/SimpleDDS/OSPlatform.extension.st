@@ -1,6 +1,6 @@
 Extension { #name : #OSPlatform }
 
 { #category : #'*SimpleDDS' }
-OSPlatform >> resolveIp [ 
+OSPlatform >> interfaces [
 	self subclassResponsibility 
 ]
