@@ -8,23 +8,6 @@ MacOSPlatform >> interfaces [
 ]
 
 { #category : #'*SimpleDDS' }
-MacOSPlatform >> resolveIp: anInterface [
-
-	| ipStream ip |
-	ipStream := (LibC resultOfCommand:
-		             ('ifconfig {1}' format: { anInterface name })) lines.
-
-	(ipStream first beginsWith: 'ifconfig:') ifTrue: [ 
-		anInterface setInvalid: true.
-		^ self ].
-
-	[ ipStream atEnd ] whileFalse: [ 
-		ipStream upToAll: 'inet '.
-		ip := ipStream upToAll: ' ' ].
-	^ nil
-]
-
-{ #category : #'*SimpleDDS' }
 MacOSPlatform >> resolveIpInto: anInterface [
 
 	| ipLines |

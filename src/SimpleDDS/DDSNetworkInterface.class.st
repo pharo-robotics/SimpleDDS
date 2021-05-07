@@ -8,8 +8,16 @@ Class {
 		'netmask',
 		'isSolved'
 	],
+	#classInstVars : [
+		'interfaces'
+	],
 	#category : #'SimpleDDS-Discovery'
 }
+
+{ #category : #accessing }
+DDSNetworkInterface class >> interfaces [
+	^ interfaces ifNil: [ interfaces := OSPlatform current interfaces ]
+]
 
 { #category : #accessing }
 DDSNetworkInterface >> hasIpV4 [
@@ -101,8 +109,9 @@ DDSNetworkInterface >> resolveIp [
 
 { #category : #'as yet unclassified' }
 DDSNetworkInterface >> setInvalid: isInvalidIface [ 
+	self assert: isInvalidIface .
 	ipV4 := 'Invalid Interface Name'.
 	ipV6 := 'Invalid Interface Name'.
 	netmask := 'Invalid Interface Name'.
-	isSolved := false.
+	isSolved := OSPlatform current isWindows 
 ]

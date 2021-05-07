@@ -4,3 +4,8 @@ Extension { #name : #OSPlatform }
 OSPlatform >> interfaces [
 	self subclassResponsibility 
 ]
+
+{ #category : #'*SimpleDDS' }
+OSPlatform >> resolveIpInto: anInterface [
+	self subclassResponsibility 
+]
