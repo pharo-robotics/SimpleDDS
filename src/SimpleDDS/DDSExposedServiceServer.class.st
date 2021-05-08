@@ -8,7 +8,7 @@ Class {
 		'connectionOffer',
 		'isRunning'
 	],
-	#category : 'SimpleDDS-Services'
+	#category : #'SimpleDDS-Services'
 }
 
 { #category : #'as yet unclassified' }
@@ -70,6 +70,12 @@ DDSExposedServiceServer >> stop [
 		ifNotNil: [ participant unregisterConnectionOffer: connectionOffer.
 			connectionOffer := nil.
 			isRunning := false ]
+]
+
+{ #category : #accessing }
+DDSExposedServiceServer >> stopServing [
+
+	self stop
 ]
 
 { #category : #accessing }

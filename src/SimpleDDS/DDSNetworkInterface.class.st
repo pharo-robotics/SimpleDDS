@@ -20,6 +20,12 @@ DDSNetworkInterface class >> interfaces [
 ]
 
 { #category : #accessing }
+DDSNetworkInterface class >> interfacesIpV4 [
+
+	^ self interfaces select: [ :i | i hasIpV4 ]
+]
+
+{ #category : #accessing }
 DDSNetworkInterface >> hasIpV4 [
 	^ ('.' split: self ipV4) size = 4
 ]
@@ -48,6 +54,11 @@ DDSNetworkInterface >> ipV4: aString [
 { #category : #'as yet unclassified' }
 DDSNetworkInterface >> ipV4Mask: aString [ 
 	netmask := aString
+]
+
+{ #category : #'as yet unclassified' }
+DDSNetworkInterface >> ipV4NetworkInterval [
+	self shouldBeImplemented.
 ]
 
 { #category : #accessing }

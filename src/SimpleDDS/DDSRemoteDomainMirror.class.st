@@ -12,7 +12,7 @@ Class {
 
 { #category : #construction }
 DDSRemoteDomainMirror class >> onSimpleDDS: anURL [
-	^ self  on: (DDSDomainProxy on: anURL )
+	^ self  on: (DDSDomainProxy on: anURL asString )
 ]
 
 { #category : #parameters }

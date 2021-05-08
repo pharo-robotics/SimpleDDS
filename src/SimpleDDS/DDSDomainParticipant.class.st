@@ -17,6 +17,11 @@ DDSDomainParticipant >> initialize [
 	servers := OrderedCollection new
 ]
 
+{ #category : #run }
+DDSDomainParticipant >> isRunning [ 
+	^ self servers anySatisfy: #isRunning
+]
+
 { #category : #accessing }
 DDSDomainParticipant >> offers [
 	^ offers ifNil: [ offers := Set new ]

@@ -13,7 +13,7 @@ Class {
 		'listener',
 		'participant'
 	],
-	#category : 'SimpleDDS-Publishing'
+	#category : #'SimpleDDS-Publishing'
 }
 
 { #category : #constructor }
@@ -41,6 +41,12 @@ DDSParticipantProtocolServer >> ip [
 { #category : #accessing }
 DDSParticipantProtocolServer >> ip: anIp [	
 	ip := anIp.
+]
+
+{ #category : #accessing }
+DDSParticipantProtocolServer >> isRunning [
+
+	^ process isNotNil and: [ process isRunning ]
 ]
 
 { #category : #testing }

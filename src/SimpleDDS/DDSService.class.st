@@ -8,7 +8,7 @@ Class {
 		'type',
 		'servers'
 	],
-	#category : 'SimpleDDS-Services'
+	#category : #'SimpleDDS-Services'
 }
 
 { #category : #constructor }
@@ -77,6 +77,11 @@ DDSService >> server [
 { #category : #accessing }
 DDSService >> servers [
 	^ servers
+]
+
+{ #category : #accessing }
+DDSService >> stopServing [
+	self destroy.
 ]
 
 { #category : #accessing }
