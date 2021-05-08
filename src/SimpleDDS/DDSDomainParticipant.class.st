@@ -11,6 +11,13 @@ Class {
 	#category : #'SimpleDDS-Publishing'
 }
 
+{ #category : #accessing }
+DDSDomainParticipant >> destroy [
+
+	self stopServers.
+	super destroy
+]
+
 { #category : #initialization }
 DDSDomainParticipant >> initialize [
 	super initialize.
