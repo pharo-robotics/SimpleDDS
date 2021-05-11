@@ -15,6 +15,14 @@ Class {
 }
 
 { #category : #accessing }
+DDSNetworkInterface class >> initialize [
+
+	SessionManager default
+		registerSystemClassNamed: self name
+		atPriority: 60
+]
+
+{ #category : #accessing }
 DDSNetworkInterface class >> interfaces [
 	^ interfaces ifNil: [ interfaces := OSPlatform current interfaces ]
 ]
@@ -23,6 +31,21 @@ DDSNetworkInterface class >> interfaces [
 DDSNetworkInterface class >> interfacesIpV4 [
 
 	^ self interfaces select: [ :i | i hasIpV4 ]
+]
+
+{ #category : #accessing }
+DDSNetworkInterface class >> invalidateInterfaces [
+	interfaces ifNotNil: [ interfaces do: [ :i | i invalidate ] ]
+]
+
+{ #category : #accessing }
+DDSNetworkInterface class >> resetInterfaces [
+	interfaces := nil.
+]
+
+{ #category : #accessing }
+DDSNetworkInterface class >> startUp: isNewSession [ 
+	isNewSession ifTrue: [ self invalidateInterfaces ]
 ]
 
 { #category : #accessing }
@@ -38,6 +61,11 @@ DDSNetworkInterface >> initialize [
 	ipV4 := 'Not-available'.
 	ipV6 := 'Not-available'.
 	netmask := 'Not-available'.
+]
+
+{ #category : #'as yet unclassified' }
+DDSNetworkInterface >> invalidate [ 
+    isSolved := false.
 ]
 
 { #category : #accessing }
