@@ -85,7 +85,10 @@ DDSExternallyDefinedDomain >> createdTopics [
 
 { #category : #accessing }
 DDSExternallyDefinedDomain >> destroy [
-	monitor ifNotNil: [ monitor destroy].
+
+	monitor ifNotNil: [ 
+		monitor destroy.
+		monitor := nil ].
 	createdServices
 		valuesDo: #destroy;
 		removeAll.
@@ -144,6 +147,16 @@ DDSExternallyDefinedDomain >> initialize [
 	participants := Set new.
 	createdServices := Dictionary new.
 	monitor := DDSServiceMonitor for: self.
+]
+
+{ #category : #testing }
+DDSExternallyDefinedDomain >> isConnected [
+
+	^ [ 
+	  mirror systemState.
+	  ^ true ]
+		  on: ConnectionTimedOut
+		  do: [ :e | ^ false ]
 ]
 
 { #category : #testing }
