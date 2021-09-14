@@ -9,7 +9,7 @@ Class {
 	#instVars : [
 		'createdServices'
 	],
-	#category : 'SimpleDDS-Domain'
+	#category : #'SimpleDDS-Domain'
 }
 
 { #category : #creationg }
@@ -102,7 +102,8 @@ DDSInternallyDefinedDomain >> findServiceByName: aServiceName ifNone: aBlockClos
 { #category : #initialization }
 DDSInternallyDefinedDomain >> initialize [
 	super initialize.
-	createdServices := Dictionary new
+	createdServices := Dictionary new.
+	types := DDSLocalImageTypeLoader new.
 ]
 
 { #category : #query }
